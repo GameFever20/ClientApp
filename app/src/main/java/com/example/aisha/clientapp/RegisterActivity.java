@@ -1,11 +1,15 @@
 package com.example.aisha.clientapp;
 
+import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.dd.processbutton.iml.ActionProcessButton;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -25,24 +29,54 @@ public class RegisterActivity extends AppCompatActivity {
     android.os.Handler handler = new android.os.Handler();
     Details studentDetail;
 
-    TextView statusTextView ;
+    TextView statusTextView;
+    ActionProcessButton btnSend;
+
+    ProgressDialog progress = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Register");
 
-        statusTextView =(TextView)findViewById(R.id.register_activity_status_textview);
+        progress = new ProgressDialog(this);
 
-        updateStatusTextView("STATUS");
-
+        statusTextView = (TextView) findViewById(R.id.register_activity_status_textview);
 
         serverIP = "192.168.43.1";
         retriveStudentDetail();
 
         showDetailInTextView();
 
+        btnSend = (ActionProcessButton) findViewById(R.id.attendance_send_processbutton);
+        btnSend.setMode(ActionProcessButton.Mode.ENDLESS);
+
     }
+
+
+    public void showDialog(String message) {
+
+
+        progress.setMessage(message);
+        //progress.setCancelable(false);
+
+        progress.show();
+
+
+    }
+
+    public void closeProgress() {
+        try {
+            progress.cancel();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 
     private void updateStatusTextView(String status) {
 
@@ -52,7 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void showDetailInTextView() {
 
-        TextView detailTextview = (TextView)findViewById(R.id.register_activity_detail_textview);
+        TextView detailTextview = (TextView) findViewById(R.id.register_activity_detail_textview);
         detailTextview.setText(studentDetail.getFormattedDetail());
 
     }
@@ -63,8 +97,6 @@ public class RegisterActivity extends AppCompatActivity {
         studentDetail = prefManager.getPrefStudentDetail();
 
     }
-
-
 
 
     public class ClientThread implements Runnable {
@@ -81,6 +113,10 @@ public class RegisterActivity extends AppCompatActivity {
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
+
+                            btnSend.setProgress(-1);
+
+                            closeProgress();
                             Toast.makeText(RegisterActivity.this, "Attendance Session is Inactive \n MAke sure you are connected to right Device ", Toast.LENGTH_SHORT).show();
                             updateStatusTextView("Attendance Session is Inactive \n MAke sure you are connected to right Device ");
                             connectiponException.printStackTrace();
@@ -133,17 +169,28 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void notifySuccessfullSend() {
-        Toast.makeText(RegisterActivity.this, "Send Succesfully", Toast.LENGTH_SHORT).show();
 
-        updateStatusTextView("Send Succesfully \n Attendence Registered");
+        closeProgress();
+
+        btnSend.setProgress(100);
+        Toast.makeText(RegisterActivity.this, "Sent Succesfully", Toast.LENGTH_SHORT).show();
+
+        updateStatusTextView("Send Succesfully \n Registered");
 
     }
 
     public void sendButtonRegisterClick(View view) {
 
+        statusTextView.setVisibility(View.VISIBLE);
+        updateStatusTextView("Registering..");
+        btnSend.setProgress(1);
+
+
 
         if (Connectivity.isConnectedWifi(RegisterActivity.this)) {
             if (!connected) {
+                showDialog("Registering...");
+
                 serverIpAddress = "192.168.43.1";
                 // serverIpAddress = servertext.getText().toString();
                 Thread cThread = new Thread(new ClientThread());
@@ -171,8 +218,6 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
     }
-
-
 
 
 }

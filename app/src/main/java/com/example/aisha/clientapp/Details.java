@@ -68,6 +68,6 @@ public class Details {
     }
 
     public String getFormattedDetail() {
-        return "Details \n NAME   :"+getName()+"\n ROLL NUMBER  : " +getRollNo() +"\n SEMESTER   :"+getSem()+"\n DEVICE IMEI  :"+ getImei() +"\n";
+        return "NAME   :"+getName()+"\n\n ROLL NUMBER  : " +getRollNo() +"\n\n SEMESTER   :"+getSem()+"\n\n DEVICE IMEI  :"+ getImei() +"\n";
     }
 }

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1c81d1</color>
+    <color name="colorAccent">#e26810</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="dark_black">#000000</color>
+    <color name="change_color">#f42b2b</color>
+    <color name="white">#ffffff</color>
+
 
 
     <!-- Screens background color-->
@@ -23,7 +31,6 @@
     <color name="dot_light_screen3">#93c6fd</color>
     <color name="dot_light_screen4">#e4b5fc</color>
     <color name="roll_editText_colour">#000000</color>
-    <color name="white">#ffffff</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
@@ -38,5 +45,4 @@
         <item>@color/dot_dark_screen3</item>
         <item>@color/dot_dark_screen4</item>
     </array>
-
 </resources>

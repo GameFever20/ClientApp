@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen1"
     android:padding="30dp"
+    android:background="@color/bg_screen1"
     tools:context="com.example.aisha.clientapp.WelcomeSlideFragment1">
 
     <!-- TODO: Update blank fragment layout -->
@@ -20,9 +20,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
             android:textSize="40sp"
             android:text="Welcome "
+            android:textColor="@color/white"
             />
 
 
@@ -30,8 +30,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
             android:textSize="25sp"
+            android:textColor="@color/white"
+
             android:text="Attendence App for \n UIT RGPV "
            android:layout_marginTop="20dp"
             />

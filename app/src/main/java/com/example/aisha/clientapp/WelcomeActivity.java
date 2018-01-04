@@ -119,7 +119,8 @@ public class WelcomeActivity extends AppCompatActivity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                launchHomeScreen();
+                //launchHomeScreen();
+                Toast.makeText(WelcomeActivity.this, "You cannot skip!!", Toast.LENGTH_SHORT).show();
             }
         });
 

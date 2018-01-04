@@ -2,8 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen4"
     android:padding="25dp"
+    android:background="@color/bg_screen2"
+
     tools:context="com.example.aisha.clientapp.WelcomeSlideFragment3">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,18 +16,18 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:textColor="@color/white"
            android:text="Tutorial"
            android:textSize="40sp"
+           android:textColor="@color/white"
            android:textAlignment="center"
            />
 
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:textColor="@color/white"
            android:text="1 - Enter Details in Next screen"
            android:textSize="25sp"
+           android:textColor="@color/white"
            android:textAlignment="center"
            />
 
