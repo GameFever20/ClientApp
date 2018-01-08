@@ -24,6 +24,7 @@ public class StartActivity extends AppCompatActivity {
 
     }
 
+
     public void openRegister(View view){
 
         Intent intent = new Intent(StartActivity.this ,RegisterActivity.class);
