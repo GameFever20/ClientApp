@@ -26,7 +26,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0101IT "
+                android:text="0101 "
                 android:textAlignment="gravity"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -48,7 +48,8 @@
                     android:hint="Roll Number"
                     android:imeOptions="actionSearch"
                     android:textColorHint="@color/white"
-                    android:inputType="number">
+                    android:inputType="textPersonName"
+                    >
 
                 </EditText>
 
@@ -66,8 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name"
-                android:imeOptions="actionSearch"
-
+                android:inputType="textPersonName"
                 />
 
         </android.support.design.widget.TextInputLayout>

@@ -727,13 +727,12 @@ public final class R {
      */
     public static final int commitIcon=0x7f04005d;
     /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int contentInsetEnd=0x7f04005e;
+    public static final int constraintSet=0x7f04005e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -741,7 +740,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f04005f;
+    public static final int contentInsetEnd=0x7f04005f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -749,7 +748,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f040060;
+    public static final int contentInsetEndWithActions=0x7f040060;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -757,7 +756,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f040061;
+    public static final int contentInsetLeft=0x7f040061;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -765,7 +764,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f040062;
+    public static final int contentInsetRight=0x7f040062;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -773,7 +772,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f040063;
+    public static final int contentInsetStart=0x7f040063;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -781,7 +780,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPadding=0x7f040064;
+    public static final int contentInsetStartWithNavigation=0x7f040064;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -789,7 +788,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingBottom=0x7f040065;
+    public static final int contentPadding=0x7f040065;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -797,7 +796,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingLeft=0x7f040066;
+    public static final int contentPaddingBottom=0x7f040066;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -805,7 +804,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingRight=0x7f040067;
+    public static final int contentPaddingLeft=0x7f040067;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -813,55 +812,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingTop=0x7f040068;
+    public static final int contentPaddingRight=0x7f040068;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingTop=0x7f040069;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f040069;
+    public static final int contentScrim=0x7f04006a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f04006a;
+    public static final int controlBackground=0x7f04006b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f04006b;
+    public static final int counterEnabled=0x7f04006c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f04006c;
+    public static final int counterMaxLength=0x7f04006d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f04006d;
+    public static final int counterOverflowTextAppearance=0x7f04006e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f04006e;
+    public static final int counterTextAppearance=0x7f04006f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f04006f;
+    public static final int customNavigationLayout=0x7f040070;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f040070;
+    public static final int defaultQueryHint=0x7f040071;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -869,14 +876,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f040071;
+    public static final int dialogPreferredPadding=0x7f040072;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f040072;
+    public static final int dialogTheme=0x7f040073;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -893,21 +900,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f040073;
+    public static final int displayOptions=0x7f040074;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f040074;
+    public static final int divider=0x7f040075;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f040075;
+    public static final int dividerHorizontal=0x7f040076;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -915,14 +922,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f040076;
+    public static final int dividerPadding=0x7f040077;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f040077;
+    public static final int dividerVertical=0x7f040078;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -930,21 +937,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f040078;
+    public static final int drawableSize=0x7f040079;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f040079;
+    public static final int drawerArrowStyle=0x7f04007a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f04007a;
+    public static final int dropDownListViewStyle=0x7f04007b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -952,14 +959,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f04007b;
+    public static final int dropdownListPreferredItemHeight=0x7f04007c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f04007c;
+    public static final int editTextBackground=0x7f04007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -969,14 +976,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f04007d;
+    public static final int editTextColor=0x7f04007e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f04007e;
+    public static final int editTextStyle=0x7f04007f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -984,31 +991,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f04007f;
+    public static final int elevation=0x7f040080;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f040080;
+    public static final int errorEnabled=0x7f040081;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f040081;
+    public static final int errorTextAppearance=0x7f040082;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f040082;
+    public static final int expandActivityOverflowButtonDrawable=0x7f040083;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f040083;
+    public static final int expanded=0x7f040084;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1028,7 +1035,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f040084;
+    public static final int expandedTitleGravity=0x7f040085;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1036,7 +1043,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f040085;
+    public static final int expandedTitleMargin=0x7f040086;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1044,7 +1051,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f040086;
+    public static final int expandedTitleMarginBottom=0x7f040087;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1052,7 +1059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f040087;
+    public static final int expandedTitleMarginEnd=0x7f040088;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1060,7 +1067,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f040088;
+    public static final int expandedTitleMarginStart=0x7f040089;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1068,14 +1075,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f040089;
+    public static final int expandedTitleMarginTop=0x7f04008a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f04008a;
+    public static final int expandedTitleTextAppearance=0x7f04008b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1088,12 +1095,12 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f04008b;
+    public static final int fabSize=0x7f04008c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f04008c;
+    public static final int foregroundInsidePadding=0x7f04008d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1101,21 +1108,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f04008d;
+    public static final int gapBetweenBars=0x7f04008e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f04008e;
+    public static final int goIcon=0x7f04008f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f04008f;
+    public static final int headerLayout=0x7f040090;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1123,74 +1130,74 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f040090;
+    public static final int height=0x7f040091;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f040091;
+    public static final int hideOnContentScroll=0x7f040092;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f040092;
+    public static final int hintAnimationEnabled=0x7f040093;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f040093;
+    public static final int hintEnabled=0x7f040094;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f040094;
+    public static final int hintTextAppearance=0x7f040095;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f040095;
+    public static final int homeAsUpIndicator=0x7f040096;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f040096;
+    public static final int homeLayout=0x7f040097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f040097;
+    public static final int icon=0x7f040098;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f040098;
+    public static final int iconifiedByDefault=0x7f040099;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f040099;
+    public static final int imageButtonStyle=0x7f04009a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f04009a;
+    public static final int indeterminateProgressStyle=0x7f04009b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f04009b;
+    public static final int initialActivityCount=0x7f04009c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1200,25 +1207,25 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f04009c;
+    public static final int insetForeground=0x7f04009d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f04009d;
+    public static final int isLightTheme=0x7f04009e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f04009e;
+    public static final int itemBackground=0x7f04009f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f04009f;
+    public static final int itemIconTint=0x7f0400a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1226,46 +1233,46 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0400a0;
+    public static final int itemPadding=0x7f0400a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f0400a1;
+    public static final int itemTextAppearance=0x7f0400a2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f0400a2;
+    public static final int itemTextColor=0x7f0400a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f0400a3;
+    public static final int keylines=0x7f0400a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0400a4;
+    public static final int layout=0x7f0400a5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f0400a5;
+    public static final int layoutManager=0x7f0400a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f0400a6;
+    public static final int layout_anchor=0x7f0400a7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1289,12 +1296,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f0400a7;
+    public static final int layout_anchorGravity=0x7f0400a8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0400a8;
+    public static final int layout_behavior=0x7f0400a9;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1307,11 +1314,349 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f0400a9;
+    public static final int layout_collapseMode=0x7f0400aa;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f0400aa;
+    public static final int layout_collapseParallaxMultiplier=0x7f0400ab;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBaseline_creator=0x7f0400ac;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0400ad;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBottom_creator=0x7f0400ae;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toBottomOf=0x7f0400af;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toTopOf=0x7f0400b0;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layout_constraintDimensionRatio=0x7f0400b1;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toEndOf=0x7f0400b2;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toStartOf=0x7f0400b3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_begin=0x7f0400b4;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_end=0x7f0400b5;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintGuide_percent=0x7f0400b6;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_default=0x7f0400b7;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintHeight_max=0x7f0400b8;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintHeight_min=0x7f0400b9;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_bias=0x7f0400ba;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0400bb;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_weight=0x7f0400bc;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintLeft_creator=0x7f0400bd;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toLeftOf=0x7f0400be;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toRightOf=0x7f0400bf;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintRight_creator=0x7f0400c0;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toLeftOf=0x7f0400c1;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toRightOf=0x7f0400c2;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toEndOf=0x7f0400c3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toStartOf=0x7f0400c4;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintTop_creator=0x7f0400c5;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toBottomOf=0x7f0400c6;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toTopOf=0x7f0400c7;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_bias=0x7f0400c8;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintVertical_chainStyle=0x7f0400c9;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_weight=0x7f0400ca;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_default=0x7f0400cb;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintWidth_max=0x7f0400cc;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintWidth_min=0x7f0400cd;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1329,7 +1674,71 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0400ab;
+    public static final int layout_dodgeInsetEdges=0x7f0400ce;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteX=0x7f0400cf;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteY=0x7f0400d0;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginBottom=0x7f0400d1;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginEnd=0x7f0400d2;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginLeft=0x7f0400d3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginRight=0x7f0400d4;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginStart=0x7f0400d5;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginTop=0x7f0400d6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1346,11 +1755,25 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0400ac;
+    public static final int layout_insetEdge=0x7f0400d7;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0400ad;
+    public static final int layout_keyline=0x7f0400d8;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>all</td><td>2</td><td></td></tr>
+     * <tr><td>basic</td><td>4</td><td></td></tr>
+     * <tr><td>chains</td><td>8</td><td></td></tr>
+     * <tr><td>none</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_optimizationLevel=0x7f0400d9;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1365,56 +1788,56 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f0400ae;
+    public static final int layout_scrollFlags=0x7f0400da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f0400af;
+    public static final int layout_scrollInterpolator=0x7f0400db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0400b0;
+    public static final int listChoiceBackgroundIndicator=0x7f0400dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f0400b1;
+    public static final int listDividerAlertDialog=0x7f0400dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f0400b2;
+    public static final int listItemLayout=0x7f0400de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f0400b3;
+    public static final int listLayout=0x7f0400df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f0400b4;
+    public static final int listMenuViewStyle=0x7f0400e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f0400b5;
+    public static final int listPopupWindowStyle=0x7f0400e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1422,7 +1845,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f0400b6;
+    public static final int listPreferredItemHeight=0x7f0400e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1430,7 +1853,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f0400b7;
+    public static final int listPreferredItemHeightLarge=0x7f0400e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1438,7 +1861,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f0400b8;
+    public static final int listPreferredItemHeightSmall=0x7f0400e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1446,7 +1869,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f0400b9;
+    public static final int listPreferredItemPaddingLeft=0x7f0400e5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1454,19 +1877,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f0400ba;
+    public static final int listPreferredItemPaddingRight=0x7f0400e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f0400bb;
+    public static final int logo=0x7f0400e7;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f0400bc;
+    public static final int logoDescription=0x7f0400e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1474,7 +1897,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f0400bd;
+    public static final int maxActionInlineWidth=0x7f0400e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1482,38 +1905,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f0400be;
+    public static final int maxButtonHeight=0x7f0400ea;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0400bf;
+    public static final int measureWithLargestChild=0x7f0400eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f0400c0;
+    public static final int menu=0x7f0400ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0400c1;
+    public static final int multiChoiceItemLayout=0x7f0400ed;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0400c2;
+    public static final int navigationContentDescription=0x7f0400ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0400c3;
+    public static final int navigationIcon=0x7f0400ef;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1526,12 +1949,12 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0400c4;
+    public static final int navigationMode=0x7f0400f0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f0400c5;
+    public static final int overlapAnchor=0x7f0400f1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1539,7 +1962,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f0400c6;
+    public static final int paddingBottomNoButtons=0x7f0400f2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1547,7 +1970,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f0400c7;
+    public static final int paddingEnd=0x7f0400f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1555,7 +1978,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f0400c8;
+    public static final int paddingStart=0x7f0400f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1563,21 +1986,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f0400c9;
+    public static final int paddingTopNoTitle=0x7f0400f5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f0400ca;
+    public static final int panelBackground=0x7f0400f6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f0400cb;
+    public static final int panelMenuListTheme=0x7f0400f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1585,30 +2008,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f0400cc;
+    public static final int panelMenuListWidth=0x7f0400f8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f0400cd;
+    public static final int passwordToggleContentDescription=0x7f0400f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f0400ce;
+    public static final int passwordToggleDrawable=0x7f0400fa;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f0400cf;
+    public static final int passwordToggleEnabled=0x7f0400fb;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f0400d0;
+    public static final int passwordToggleTint=0x7f0400fc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1623,37 +2046,37 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f0400d1;
+    public static final int passwordToggleTintMode=0x7f0400fd;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pb_colorComplete=0x7f0400d2;
+    public static final int pb_colorComplete=0x7f0400fe;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pb_colorError=0x7f0400d3;
+    public static final int pb_colorError=0x7f0400ff;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pb_colorNormal=0x7f0400d4;
+    public static final int pb_colorNormal=0x7f040100;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pb_colorPressed=0x7f0400d5;
+    public static final int pb_colorPressed=0x7f040101;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pb_colorProgress=0x7f0400d6;
+    public static final int pb_colorProgress=0x7f040102;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1661,48 +2084,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pb_cornerRadius=0x7f0400d7;
+    public static final int pb_cornerRadius=0x7f040103;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int pb_textComplete=0x7f0400d8;
+    public static final int pb_textComplete=0x7f040104;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int pb_textError=0x7f0400d9;
+    public static final int pb_textError=0x7f040105;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int pb_textProgress=0x7f0400da;
+    public static final int pb_textProgress=0x7f040106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f0400db;
+    public static final int popupMenuStyle=0x7f040107;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f0400dc;
+    public static final int popupTheme=0x7f040108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f0400dd;
+    public static final int popupWindowStyle=0x7f040109;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f0400de;
+    public static final int preserveIconSpacing=0x7f04010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1710,7 +2133,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f0400df;
+    public static final int pressedTranslationZ=0x7f04010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1718,69 +2141,69 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f0400e0;
+    public static final int progressBarPadding=0x7f04010c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f0400e1;
+    public static final int progressBarStyle=0x7f04010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f0400e2;
+    public static final int queryBackground=0x7f04010e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0400e3;
+    public static final int queryHint=0x7f04010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f0400e4;
+    public static final int radioButtonStyle=0x7f040110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f0400e5;
+    public static final int ratingBarStyle=0x7f040111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f0400e6;
+    public static final int ratingBarStyleIndicator=0x7f040112;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f0400e7;
+    public static final int ratingBarStyleSmall=0x7f040113;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0400e8;
+    public static final int reverseLayout=0x7f040114;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f0400e9;
+    public static final int rippleColor=0x7f040115;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f0400ea;
+    public static final int scrimAnimationDuration=0x7f040116;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1788,49 +2211,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f0400eb;
+    public static final int scrimVisibleHeightTrigger=0x7f040117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0400ec;
+    public static final int searchHintIcon=0x7f040118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0400ed;
+    public static final int searchIcon=0x7f040119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0400ee;
+    public static final int searchViewStyle=0x7f04011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0400ef;
+    public static final int seekBarStyle=0x7f04011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0400f0;
+    public static final int selectableItemBackground=0x7f04011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0400f1;
+    public static final int selectableItemBackgroundBorderless=0x7f04011d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1845,7 +2268,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0400f2;
+    public static final int showAsAction=0x7f04011e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1859,138 +2282,138 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0400f3;
+    public static final int showDividers=0x7f04011f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0400f4;
+    public static final int showText=0x7f040120;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f0400f5;
+    public static final int showTitle=0x7f040121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0400f6;
+    public static final int singleChoiceItemLayout=0x7f040122;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0400f7;
+    public static final int spanCount=0x7f040123;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0400f8;
+    public static final int spinBars=0x7f040124;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0400f9;
+    public static final int spinnerDropDownItemStyle=0x7f040125;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0400fa;
+    public static final int spinnerStyle=0x7f040126;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0400fb;
+    public static final int splitTrack=0x7f040127;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0400fc;
+    public static final int srcCompat=0x7f040128;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0400fd;
+    public static final int stackFromEnd=0x7f040129;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0400fe;
+    public static final int state_above_anchor=0x7f04012a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f0400ff;
+    public static final int state_collapsed=0x7f04012b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f040100;
+    public static final int state_collapsible=0x7f04012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int statusBarBackground=0x7f040101;
+    public static final int statusBarBackground=0x7f04012d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f040102;
+    public static final int statusBarScrim=0x7f04012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f040103;
+    public static final int subMenuArrow=0x7f04012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f040104;
+    public static final int submitBackground=0x7f040130;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f040105;
+    public static final int subtitle=0x7f040131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f040106;
+    public static final int subtitleTextAppearance=0x7f040132;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f040107;
+    public static final int subtitleTextColor=0x7f040133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f040108;
+    public static final int subtitleTextStyle=0x7f040134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f040109;
+    public static final int suggestionRowLayout=0x7f040135;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1998,7 +2421,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f04010a;
+    public static final int switchMinWidth=0x7f040136;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2006,28 +2429,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f04010b;
+    public static final int switchPadding=0x7f040137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f04010c;
+    public static final int switchStyle=0x7f040138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f04010d;
+    public static final int switchTextAppearance=0x7f040139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f04010e;
+    public static final int tabBackground=0x7f04013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2035,7 +2458,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f04010f;
+    public static final int tabContentStart=0x7f04013b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2047,13 +2470,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f040110;
+    public static final int tabGravity=0x7f04013c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f040111;
+    public static final int tabIndicatorColor=0x7f04013d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2061,7 +2484,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f040112;
+    public static final int tabIndicatorHeight=0x7f04013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2069,7 +2492,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f040113;
+    public static final int tabMaxWidth=0x7f04013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2077,7 +2500,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f040114;
+    public static final int tabMinWidth=0x7f040140;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2089,7 +2512,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f040115;
+    public static final int tabMode=0x7f040141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2097,7 +2520,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f040116;
+    public static final int tabPadding=0x7f040142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2105,7 +2528,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f040117;
+    public static final int tabPaddingBottom=0x7f040143;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2113,7 +2536,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f040118;
+    public static final int tabPaddingEnd=0x7f040144;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2121,7 +2544,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f040119;
+    public static final int tabPaddingStart=0x7f040145;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2129,26 +2552,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f04011a;
+    public static final int tabPaddingTop=0x7f040146;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f04011b;
+    public static final int tabSelectedTextColor=0x7f040147;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f04011c;
+    public static final int tabTextAppearance=0x7f040148;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f04011d;
+    public static final int tabTextColor=0x7f040149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2157,79 +2580,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f04011e;
+    public static final int textAllCaps=0x7f04014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f04011f;
+    public static final int textAppearanceLargePopupMenu=0x7f04014b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f040120;
+    public static final int textAppearanceListItem=0x7f04014c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f040121;
+    public static final int textAppearanceListItemSecondary=0x7f04014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f040122;
+    public static final int textAppearanceListItemSmall=0x7f04014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f040123;
+    public static final int textAppearancePopupMenuHeader=0x7f04014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f040124;
+    public static final int textAppearanceSearchResultSubtitle=0x7f040150;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f040125;
+    public static final int textAppearanceSearchResultTitle=0x7f040151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f040126;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f040127;
-    /**
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorError=0x7f040128;
+    public static final int textAppearanceSmallPopupMenu=0x7f040152;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2239,14 +2646,30 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f040129;
+    public static final int textColorAlertDialogListItem=0x7f040153;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorError=0x7f040154;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f040155;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f04012a;
+    public static final int theme=0x7f040156;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2254,7 +2677,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f04012b;
+    public static final int thickness=0x7f040157;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2262,13 +2685,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f04012c;
+    public static final int thumbTextPadding=0x7f040158;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f04012d;
+    public static final int thumbTint=0x7f040159;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2284,20 +2707,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f04012e;
+    public static final int thumbTintMode=0x7f04015a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f04012f;
+    public static final int tickMark=0x7f04015b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f040130;
+    public static final int tickMarkTint=0x7f04015c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2313,13 +2736,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f040131;
+    public static final int tickMarkTintMode=0x7f04015d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f040132;
+    public static final int tint=0x7f04015e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2334,17 +2757,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f040133;
+    public static final int tintMode=0x7f04015f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f040134;
+    public static final int title=0x7f040160;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f040135;
+    public static final int titleEnabled=0x7f040161;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2352,7 +2775,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f040136;
+    public static final int titleMargin=0x7f040162;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2360,7 +2783,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f040137;
+    public static final int titleMarginBottom=0x7f040163;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2368,7 +2791,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f040138;
+    public static final int titleMarginEnd=0x7f040164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2376,7 +2799,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f040139;
+    public static final int titleMarginStart=0x7f040165;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2384,7 +2807,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f04013a;
+    public static final int titleMarginTop=0x7f040166;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2392,61 +2815,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f04013b;
+    public static final int titleMargins=0x7f040167;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f04013c;
+    public static final int titleTextAppearance=0x7f040168;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f04013d;
+    public static final int titleTextColor=0x7f040169;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f04013e;
+    public static final int titleTextStyle=0x7f04016a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f04013f;
+    public static final int toolbarId=0x7f04016b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f040140;
+    public static final int toolbarNavigationButtonStyle=0x7f04016c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f040141;
+    public static final int toolbarStyle=0x7f04016d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f040142;
+    public static final int track=0x7f04016e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f040143;
+    public static final int trackTint=0x7f04016f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2462,34 +2885,34 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f040144;
+    public static final int trackTintMode=0x7f040170;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f040145;
+    public static final int useCompatPadding=0x7f040171;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f040146;
+    public static final int voiceIcon=0x7f040172;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f040147;
+    public static final int windowActionBar=0x7f040173;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f040148;
+    public static final int windowActionBarOverlay=0x7f040174;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f040149;
+    public static final int windowActionModeOverlay=0x7f040175;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2501,7 +2924,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f04014a;
+    public static final int windowFixedHeightMajor=0x7f040176;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2513,7 +2936,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f04014b;
+    public static final int windowFixedHeightMinor=0x7f040177;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2525,7 +2948,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f04014c;
+    public static final int windowFixedWidthMajor=0x7f040178;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2537,7 +2960,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f04014d;
+    public static final int windowFixedWidthMinor=0x7f040179;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2549,7 +2972,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f04014e;
+    public static final int windowMinWidthMajor=0x7f04017a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2561,12 +2984,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f04014f;
+    public static final int windowMinWidthMinor=0x7f04017b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f040150;
+    public static final int windowNoTitle=0x7f04017c;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f050000;
@@ -3012,163 +3435,170 @@ public final class R {
     public static final int attendance_send_processbutton=0x7f090023;
     public static final int auto=0x7f090024;
     public static final int availabehotspotlist=0x7f090025;
-    public static final int beginning=0x7f090026;
-    public static final int bottom=0x7f090027;
-    public static final int btn_next=0x7f090028;
-    public static final int btn_skip=0x7f090029;
-    public static final int buttonPanel=0x7f09002a;
-    public static final int buttonscan=0x7f09002b;
-    public static final int cancel_action=0x7f09002c;
-    public static final int center=0x7f09002d;
-    public static final int center_horizontal=0x7f09002e;
-    public static final int center_vertical=0x7f09002f;
-    public static final int checkbox=0x7f090030;
-    public static final int chronometer=0x7f090031;
-    public static final int clip_horizontal=0x7f090032;
-    public static final int clip_vertical=0x7f090033;
-    public static final int collapseActionView=0x7f090034;
-    public static final int container=0x7f090035;
-    public static final int contentPanel=0x7f090036;
-    public static final int coordinator=0x7f090037;
-    public static final int custom=0x7f090038;
-    public static final int customPanel=0x7f090039;
-    public static final int decor_content_parent=0x7f09003a;
-    public static final int default_activity_button=0x7f09003b;
-    public static final int design_bottom_sheet=0x7f09003c;
-    public static final int design_menu_item_action_area=0x7f09003d;
-    public static final int design_menu_item_action_area_stub=0x7f09003e;
-    public static final int design_menu_item_text=0x7f09003f;
-    public static final int design_navigation_view=0x7f090040;
-    public static final int detailsTv=0x7f090041;
-    public static final int disableHome=0x7f090042;
-    public static final int editText1=0x7f090043;
-    public static final int editText2=0x7f090044;
-    public static final int editText3=0x7f090045;
-    public static final int edit_query=0x7f090046;
-    public static final int end=0x7f090047;
-    public static final int end_padder=0x7f090048;
-    public static final int enter=0x7f090049;
-    public static final int enterAlways=0x7f09004a;
-    public static final int enterAlwaysCollapsed=0x7f09004b;
-    public static final int exitUntilCollapsed=0x7f09004c;
-    public static final int expand_activities_button=0x7f09004d;
-    public static final int expanded_menu=0x7f09004e;
-    public static final int fab=0x7f09004f;
-    public static final int fill=0x7f090050;
-    public static final int fill_horizontal=0x7f090051;
-    public static final int fill_vertical=0x7f090052;
-    public static final int fixed=0x7f090053;
-    public static final int fragment2_name_edittext=0x7f090054;
-    public static final int fragment2_okay_button=0x7f090055;
-    public static final int fragment2_roll_edittext=0x7f090056;
-    public static final int fragment2_sem_spinner=0x7f090057;
-    public static final int home=0x7f090058;
-    public static final int homeAsUp=0x7f090059;
-    public static final int icon=0x7f09005a;
-    public static final int icon_group=0x7f09005b;
-    public static final int ifRoom=0x7f09005c;
-    public static final int image=0x7f09005d;
-    public static final int info=0x7f09005e;
-    public static final int input_layout_name=0x7f09005f;
-    public static final int input_layout_rollnumber=0x7f090060;
-    public static final int item_touch_helper_previous_elevation=0x7f090061;
-    public static final int largeLabel=0x7f090062;
-    public static final int layoutDots=0x7f090063;
-    public static final int left=0x7f090064;
-    public static final int line1=0x7f090065;
-    public static final int line3=0x7f090066;
-    public static final int listMode=0x7f090067;
-    public static final int list_item=0x7f090068;
-    public static final int masked=0x7f090069;
-    public static final int media_actions=0x7f09006a;
-    public static final int middle=0x7f09006b;
-    public static final int mini=0x7f09006c;
-    public static final int multiply=0x7f09006d;
-    public static final int name=0x7f09006e;
-    public static final int navigation_header_container=0x7f09006f;
-    public static final int never=0x7f090070;
-    public static final int none=0x7f090071;
-    public static final int normal=0x7f090072;
-    public static final int notification_background=0x7f090073;
-    public static final int notification_main_column=0x7f090074;
-    public static final int notification_main_column_container=0x7f090075;
-    public static final int parallax=0x7f090076;
-    public static final int parentPanel=0x7f090077;
-    public static final int pin=0x7f090078;
-    public static final int progress_circular=0x7f090079;
-    public static final int progress_horizontal=0x7f09007a;
-    public static final int radio=0x7f09007b;
-    public static final int register=0x7f09007c;
-    public static final int register_activity_detail_textview=0x7f09007d;
-    public static final int register_activity_status_textview=0x7f09007e;
-    public static final int right=0x7f09007f;
-    public static final int right_icon=0x7f090080;
-    public static final int right_side=0x7f090081;
-    public static final int roll=0x7f090082;
-    public static final int screen=0x7f090083;
-    public static final int scroll=0x7f090084;
-    public static final int scrollIndicatorDown=0x7f090085;
-    public static final int scrollIndicatorUp=0x7f090086;
-    public static final int scrollView=0x7f090087;
-    public static final int scrollable=0x7f090088;
-    public static final int search_badge=0x7f090089;
-    public static final int search_bar=0x7f09008a;
-    public static final int search_button=0x7f09008b;
-    public static final int search_close_btn=0x7f09008c;
-    public static final int search_edit_frame=0x7f09008d;
-    public static final int search_go_btn=0x7f09008e;
-    public static final int search_mag_icon=0x7f09008f;
-    public static final int search_plate=0x7f090090;
-    public static final int search_src_text=0x7f090091;
-    public static final int search_voice_btn=0x7f090092;
-    public static final int select_dialog_listview=0x7f090093;
-    public static final int sem=0x7f090094;
-    public static final int sendDetailTv=0x7f090095;
-    public static final int shortcut=0x7f090096;
-    public static final int showCustom=0x7f090097;
-    public static final int showHome=0x7f090098;
-    public static final int showTitle=0x7f090099;
-    public static final int smallLabel=0x7f09009a;
-    public static final int snackbar_action=0x7f09009b;
-    public static final int snackbar_text=0x7f09009c;
-    public static final int snap=0x7f09009d;
-    public static final int spacer=0x7f09009e;
-    public static final int split_action_bar=0x7f09009f;
-    public static final int src_atop=0x7f0900a0;
-    public static final int src_in=0x7f0900a1;
-    public static final int src_over=0x7f0900a2;
-    public static final int start=0x7f0900a3;
-    public static final int status_bar_latest_event_content=0x7f0900a4;
-    public static final int submenuarrow=0x7f0900a5;
-    public static final int submit_area=0x7f0900a6;
-    public static final int tabMode=0x7f0900a7;
-    public static final int text=0x7f0900a8;
-    public static final int text2=0x7f0900a9;
-    public static final int textSpacerNoButtons=0x7f0900aa;
-    public static final int textSpacerNoTitle=0x7f0900ab;
-    public static final int textView=0x7f0900ac;
-    public static final int textView2=0x7f0900ad;
-    public static final int textView3=0x7f0900ae;
-    public static final int text_input_password_toggle=0x7f0900af;
-    public static final int textinput_counter=0x7f0900b0;
-    public static final int textinput_error=0x7f0900b1;
-    public static final int time=0x7f0900b2;
-    public static final int title=0x7f0900b3;
-    public static final int titleDividerNoCustom=0x7f0900b4;
-    public static final int title_template=0x7f0900b5;
-    public static final int toolbar=0x7f0900b6;
-    public static final int top=0x7f0900b7;
-    public static final int topPanel=0x7f0900b8;
-    public static final int touch_outside=0x7f0900b9;
-    public static final int transition_current_scene=0x7f0900ba;
-    public static final int transition_scene_layoutid_cache=0x7f0900bb;
-    public static final int up=0x7f0900bc;
-    public static final int useLogo=0x7f0900bd;
-    public static final int view_offset_helper=0x7f0900be;
-    public static final int view_pager=0x7f0900bf;
-    public static final int visible=0x7f0900c0;
-    public static final int withText=0x7f0900c1;
-    public static final int wrap_content=0x7f0900c2;
+    public static final int basic=0x7f090026;
+    public static final int beginning=0x7f090027;
+    public static final int bottom=0x7f090028;
+    public static final int btn_next=0x7f090029;
+    public static final int btn_skip=0x7f09002a;
+    public static final int buttonPanel=0x7f09002b;
+    public static final int buttonscan=0x7f09002c;
+    public static final int cancel_action=0x7f09002d;
+    public static final int center=0x7f09002e;
+    public static final int center_horizontal=0x7f09002f;
+    public static final int center_vertical=0x7f090030;
+    public static final int chains=0x7f090031;
+    public static final int checkbox=0x7f090032;
+    public static final int chronometer=0x7f090033;
+    public static final int clip_horizontal=0x7f090034;
+    public static final int clip_vertical=0x7f090035;
+    public static final int collapseActionView=0x7f090036;
+    public static final int container=0x7f090037;
+    public static final int contentPanel=0x7f090038;
+    public static final int coordinator=0x7f090039;
+    public static final int custom=0x7f09003a;
+    public static final int customPanel=0x7f09003b;
+    public static final int decor_content_parent=0x7f09003c;
+    public static final int default_activity_button=0x7f09003d;
+    public static final int design_bottom_sheet=0x7f09003e;
+    public static final int design_menu_item_action_area=0x7f09003f;
+    public static final int design_menu_item_action_area_stub=0x7f090040;
+    public static final int design_menu_item_text=0x7f090041;
+    public static final int design_navigation_view=0x7f090042;
+    public static final int detailsTv=0x7f090043;
+    public static final int disableHome=0x7f090044;
+    public static final int editText1=0x7f090045;
+    public static final int editText2=0x7f090046;
+    public static final int editText3=0x7f090047;
+    public static final int edit_query=0x7f090048;
+    public static final int end=0x7f090049;
+    public static final int end_padder=0x7f09004a;
+    public static final int enter=0x7f09004b;
+    public static final int enterAlways=0x7f09004c;
+    public static final int enterAlwaysCollapsed=0x7f09004d;
+    public static final int exitUntilCollapsed=0x7f09004e;
+    public static final int expand_activities_button=0x7f09004f;
+    public static final int expanded_menu=0x7f090050;
+    public static final int fab=0x7f090051;
+    public static final int fill=0x7f090052;
+    public static final int fill_horizontal=0x7f090053;
+    public static final int fill_vertical=0x7f090054;
+    public static final int fixed=0x7f090055;
+    public static final int fragment2_name_edittext=0x7f090056;
+    public static final int fragment2_okay_button=0x7f090057;
+    public static final int fragment2_roll_edittext=0x7f090058;
+    public static final int fragment2_sem_spinner=0x7f090059;
+    public static final int home=0x7f09005a;
+    public static final int homeAsUp=0x7f09005b;
+    public static final int icon=0x7f09005c;
+    public static final int icon_group=0x7f09005d;
+    public static final int ifRoom=0x7f09005e;
+    public static final int image=0x7f09005f;
+    public static final int info=0x7f090060;
+    public static final int input_layout_name=0x7f090061;
+    public static final int input_layout_rollnumber=0x7f090062;
+    public static final int item_touch_helper_previous_elevation=0x7f090063;
+    public static final int largeLabel=0x7f090064;
+    public static final int layoutDots=0x7f090065;
+    public static final int left=0x7f090066;
+    public static final int line1=0x7f090067;
+    public static final int line3=0x7f090068;
+    public static final int listMode=0x7f090069;
+    public static final int list_item=0x7f09006a;
+    public static final int masked=0x7f09006b;
+    public static final int media_actions=0x7f09006c;
+    public static final int middle=0x7f09006d;
+    public static final int mini=0x7f09006e;
+    public static final int multiply=0x7f09006f;
+    public static final int name=0x7f090070;
+    public static final int navigation_header_container=0x7f090071;
+    public static final int never=0x7f090072;
+    public static final int none=0x7f090073;
+    public static final int normal=0x7f090074;
+    public static final int notification_background=0x7f090075;
+    public static final int notification_main_column=0x7f090076;
+    public static final int notification_main_column_container=0x7f090077;
+    public static final int packed=0x7f090078;
+    public static final int parallax=0x7f090079;
+    public static final int parent=0x7f09007a;
+    public static final int parentPanel=0x7f09007b;
+    public static final int pin=0x7f09007c;
+    public static final int progress_circular=0x7f09007d;
+    public static final int progress_horizontal=0x7f09007e;
+    public static final int radio=0x7f09007f;
+    public static final int register=0x7f090080;
+    public static final int register_activity_detail_textview=0x7f090081;
+    public static final int register_activity_status_textview=0x7f090082;
+    public static final int right=0x7f090083;
+    public static final int right_icon=0x7f090084;
+    public static final int right_side=0x7f090085;
+    public static final int roll=0x7f090086;
+    public static final int screen=0x7f090087;
+    public static final int scroll=0x7f090088;
+    public static final int scrollIndicatorDown=0x7f090089;
+    public static final int scrollIndicatorUp=0x7f09008a;
+    public static final int scrollView=0x7f09008b;
+    public static final int scrollable=0x7f09008c;
+    public static final int search_badge=0x7f09008d;
+    public static final int search_bar=0x7f09008e;
+    public static final int search_button=0x7f09008f;
+    public static final int search_close_btn=0x7f090090;
+    public static final int search_edit_frame=0x7f090091;
+    public static final int search_go_btn=0x7f090092;
+    public static final int search_mag_icon=0x7f090093;
+    public static final int search_plate=0x7f090094;
+    public static final int search_src_text=0x7f090095;
+    public static final int search_voice_btn=0x7f090096;
+    public static final int select_dialog_listview=0x7f090097;
+    public static final int sem=0x7f090098;
+    public static final int sendDetailTv=0x7f090099;
+    public static final int shortcut=0x7f09009a;
+    public static final int showCustom=0x7f09009b;
+    public static final int showHome=0x7f09009c;
+    public static final int showTitle=0x7f09009d;
+    public static final int smallLabel=0x7f09009e;
+    public static final int snackbar_action=0x7f09009f;
+    public static final int snackbar_text=0x7f0900a0;
+    public static final int snap=0x7f0900a1;
+    public static final int spacer=0x7f0900a2;
+    public static final int split_action_bar=0x7f0900a3;
+    public static final int spread=0x7f0900a4;
+    public static final int spread_inside=0x7f0900a5;
+    public static final int src_atop=0x7f0900a6;
+    public static final int src_in=0x7f0900a7;
+    public static final int src_over=0x7f0900a8;
+    public static final int start=0x7f0900a9;
+    public static final int status_bar_latest_event_content=0x7f0900aa;
+    public static final int submenuarrow=0x7f0900ab;
+    public static final int submit_area=0x7f0900ac;
+    public static final int tabMode=0x7f0900ad;
+    public static final int text=0x7f0900ae;
+    public static final int text2=0x7f0900af;
+    public static final int textSpacerNoButtons=0x7f0900b0;
+    public static final int textSpacerNoTitle=0x7f0900b1;
+    public static final int textView=0x7f0900b2;
+    public static final int textView2=0x7f0900b3;
+    public static final int textView3=0x7f0900b4;
+    public static final int text_input_password_toggle=0x7f0900b5;
+    public static final int textinput_counter=0x7f0900b6;
+    public static final int textinput_error=0x7f0900b7;
+    public static final int time=0x7f0900b8;
+    public static final int title=0x7f0900b9;
+    public static final int titleDividerNoCustom=0x7f0900ba;
+    public static final int title_template=0x7f0900bb;
+    public static final int toolbar=0x7f0900bc;
+    public static final int top=0x7f0900bd;
+    public static final int topPanel=0x7f0900be;
+    public static final int touch_outside=0x7f0900bf;
+    public static final int transition_current_scene=0x7f0900c0;
+    public static final int transition_scene_layoutid_cache=0x7f0900c1;
+    public static final int up=0x7f0900c2;
+    public static final int useLogo=0x7f0900c3;
+    public static final int view_offset_helper=0x7f0900c4;
+    public static final int view_pager=0x7f0900c5;
+    public static final int visible=0x7f0900c6;
+    public static final int withText=0x7f0900c7;
+    public static final int wrap=0x7f0900c8;
+    public static final int wrap_content=0x7f0900c9;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -3209,52 +3639,54 @@ public final class R {
     public static final int abc_search_dropdown_item_icons_2line=0x7f0b0018;
     public static final int abc_search_view=0x7f0b0019;
     public static final int abc_select_dialog_material=0x7f0b001a;
-    public static final int activity_attendance=0x7f0b001b;
-    public static final int activity_help=0x7f0b001c;
-    public static final int activity_main=0x7f0b001d;
-    public static final int activity_register=0x7f0b001e;
-    public static final int activity_start=0x7f0b001f;
-    public static final int activity_welcome=0x7f0b0020;
-    public static final int content_main=0x7f0b0021;
-    public static final int design_bottom_navigation_item=0x7f0b0022;
-    public static final int design_bottom_sheet_dialog=0x7f0b0023;
-    public static final int design_layout_snackbar=0x7f0b0024;
-    public static final int design_layout_snackbar_include=0x7f0b0025;
-    public static final int design_layout_tab_icon=0x7f0b0026;
-    public static final int design_layout_tab_text=0x7f0b0027;
-    public static final int design_menu_item_action_area=0x7f0b0028;
-    public static final int design_navigation_item=0x7f0b0029;
-    public static final int design_navigation_item_header=0x7f0b002a;
-    public static final int design_navigation_item_separator=0x7f0b002b;
-    public static final int design_navigation_item_subheader=0x7f0b002c;
-    public static final int design_navigation_menu=0x7f0b002d;
-    public static final int design_navigation_menu_item=0x7f0b002e;
-    public static final int design_text_input_password_icon=0x7f0b002f;
-    public static final int dialog_list=0x7f0b0030;
-    public static final int fragment_welcome_slide_fragment1=0x7f0b0031;
-    public static final int fragment_welcome_slide_fragment2=0x7f0b0032;
-    public static final int fragment_welcome_slide_fragment3=0x7f0b0033;
-    public static final int notification_action=0x7f0b0034;
-    public static final int notification_action_tombstone=0x7f0b0035;
-    public static final int notification_media_action=0x7f0b0036;
-    public static final int notification_media_cancel_action=0x7f0b0037;
-    public static final int notification_template_big_media=0x7f0b0038;
-    public static final int notification_template_big_media_custom=0x7f0b0039;
-    public static final int notification_template_big_media_narrow=0x7f0b003a;
-    public static final int notification_template_big_media_narrow_custom=0x7f0b003b;
-    public static final int notification_template_custom_big=0x7f0b003c;
-    public static final int notification_template_icon_group=0x7f0b003d;
-    public static final int notification_template_lines_media=0x7f0b003e;
-    public static final int notification_template_media=0x7f0b003f;
-    public static final int notification_template_media_custom=0x7f0b0040;
-    public static final int notification_template_part_chronometer=0x7f0b0041;
-    public static final int notification_template_part_time=0x7f0b0042;
-    public static final int select_dialog_item_material=0x7f0b0043;
-    public static final int select_dialog_multichoice_material=0x7f0b0044;
-    public static final int select_dialog_singlechoice_material=0x7f0b0045;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b0046;
-    public static final int welcome_slide_1=0x7f0b0047;
-    public static final int welcome_slide_2=0x7f0b0048;
+    public static final int activity_about_us=0x7f0b001b;
+    public static final int activity_attendance=0x7f0b001c;
+    public static final int activity_help=0x7f0b001d;
+    public static final int activity_main=0x7f0b001e;
+    public static final int activity_register=0x7f0b001f;
+    public static final int activity_start=0x7f0b0020;
+    public static final int activity_welcome=0x7f0b0021;
+    public static final int content_about_us=0x7f0b0022;
+    public static final int content_main=0x7f0b0023;
+    public static final int design_bottom_navigation_item=0x7f0b0024;
+    public static final int design_bottom_sheet_dialog=0x7f0b0025;
+    public static final int design_layout_snackbar=0x7f0b0026;
+    public static final int design_layout_snackbar_include=0x7f0b0027;
+    public static final int design_layout_tab_icon=0x7f0b0028;
+    public static final int design_layout_tab_text=0x7f0b0029;
+    public static final int design_menu_item_action_area=0x7f0b002a;
+    public static final int design_navigation_item=0x7f0b002b;
+    public static final int design_navigation_item_header=0x7f0b002c;
+    public static final int design_navigation_item_separator=0x7f0b002d;
+    public static final int design_navigation_item_subheader=0x7f0b002e;
+    public static final int design_navigation_menu=0x7f0b002f;
+    public static final int design_navigation_menu_item=0x7f0b0030;
+    public static final int design_text_input_password_icon=0x7f0b0031;
+    public static final int dialog_list=0x7f0b0032;
+    public static final int fragment_welcome_slide_fragment1=0x7f0b0033;
+    public static final int fragment_welcome_slide_fragment2=0x7f0b0034;
+    public static final int fragment_welcome_slide_fragment3=0x7f0b0035;
+    public static final int notification_action=0x7f0b0036;
+    public static final int notification_action_tombstone=0x7f0b0037;
+    public static final int notification_media_action=0x7f0b0038;
+    public static final int notification_media_cancel_action=0x7f0b0039;
+    public static final int notification_template_big_media=0x7f0b003a;
+    public static final int notification_template_big_media_custom=0x7f0b003b;
+    public static final int notification_template_big_media_narrow=0x7f0b003c;
+    public static final int notification_template_big_media_narrow_custom=0x7f0b003d;
+    public static final int notification_template_custom_big=0x7f0b003e;
+    public static final int notification_template_icon_group=0x7f0b003f;
+    public static final int notification_template_lines_media=0x7f0b0040;
+    public static final int notification_template_media=0x7f0b0041;
+    public static final int notification_template_media_custom=0x7f0b0042;
+    public static final int notification_template_part_chronometer=0x7f0b0043;
+    public static final int notification_template_part_time=0x7f0b0044;
+    public static final int select_dialog_item_material=0x7f0b0045;
+    public static final int select_dialog_multichoice_material=0x7f0b0046;
+    public static final int select_dialog_singlechoice_material=0x7f0b0047;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b0048;
+    public static final int welcome_slide_1=0x7f0b0049;
+    public static final int welcome_slide_2=0x7f0b004a;
   }
   public static final class menu {
     public static final int menu_main=0x7f0c0000;
@@ -3345,7 +3777,8 @@ public final class R {
     public static final int slide_4_title=0x7f0e004c;
     public static final int start=0x7f0e004d;
     public static final int status_bar_notification_info_overflow=0x7f0e004e;
-    public static final int title_activity_welcome=0x7f0e004f;
+    public static final int title_activity_about_us=0x7f0e004f;
+    public static final int title_activity_welcome=0x7f0e0050;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -3743,35 +4176,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.aisha.clientapp:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.aisha.clientapp:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.aisha.clientapp:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.aisha.clientapp:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.aisha.clientapp:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.aisha.clientapp:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.aisha.clientapp:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.aisha.clientapp:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.aisha.clientapp:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.aisha.clientapp:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.aisha.clientapp:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.aisha.clientapp:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.aisha.clientapp:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.aisha.clientapp:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.aisha.clientapp:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.aisha.clientapp:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.aisha.clientapp:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.aisha.clientapp:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.aisha.clientapp:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.aisha.clientapp:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.aisha.clientapp:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.aisha.clientapp:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.aisha.clientapp:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.aisha.clientapp:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.aisha.clientapp:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.aisha.clientapp:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.aisha.clientapp:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.aisha.clientapp:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background app.uit.it.attendance.student:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit app.uit.it.attendance.student:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked app.uit.it.attendance.student:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd app.uit.it.attendance.student:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions app.uit.it.attendance.student:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft app.uit.it.attendance.student:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight app.uit.it.attendance.student:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart app.uit.it.attendance.student:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation app.uit.it.attendance.student:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout app.uit.it.attendance.student:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions app.uit.it.attendance.student:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider app.uit.it.attendance.student:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height app.uit.it.attendance.student:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll app.uit.it.attendance.student:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator app.uit.it.attendance.student:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout app.uit.it.attendance.student:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon app.uit.it.attendance.student:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle app.uit.it.attendance.student:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding app.uit.it.attendance.student:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo app.uit.it.attendance.student:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode app.uit.it.attendance.student:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme app.uit.it.attendance.student:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding app.uit.it.attendance.student:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle app.uit.it.attendance.student:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle app.uit.it.attendance.student:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle app.uit.it.attendance.student:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title app.uit.it.attendance.student:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle app.uit.it.attendance.student:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3804,14 +4237,14 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f04002b, 0x7f04002c, 0x7f04002d, 0x7f04005e, 
-        0x7f04005f, 0x7f040060, 0x7f040061, 0x7f040062, 
-        0x7f040063, 0x7f04006f, 0x7f040073, 0x7f040074, 
-        0x7f04007f, 0x7f040090, 0x7f040091, 0x7f040095, 
-        0x7f040096, 0x7f040097, 0x7f04009a, 0x7f0400a0, 
-        0x7f0400bb, 0x7f0400c4, 0x7f0400dc, 0x7f0400e0, 
-        0x7f0400e1, 0x7f040105, 0x7f040108, 0x7f040134, 
-        0x7f04013e
+        0x7f04002b, 0x7f04002c, 0x7f04002d, 0x7f04005f, 
+        0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 
+        0x7f040064, 0x7f040070, 0x7f040074, 0x7f040075, 
+        0x7f040080, 0x7f040091, 0x7f040092, 0x7f040096, 
+        0x7f040097, 0x7f040098, 0x7f04009b, 0x7f0400a1, 
+        0x7f0400e7, 0x7f0400f0, 0x7f040108, 0x7f04010c, 
+        0x7f04010d, 0x7f040131, 0x7f040134, 0x7f040160, 
+        0x7f04016a
       };
     /**
      * Attributes that can be used with a ActionBarLayout.
@@ -3857,7 +4290,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#background}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3865,11 +4298,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:background
+     * @attr name app.uit.it.attendance.student:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3880,11 +4313,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:backgroundSplit
+     * @attr name app.uit.it.attendance.student:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3895,11 +4328,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:backgroundStacked
+     * @attr name app.uit.it.attendance.student:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3908,11 +4341,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetEnd
+     * @attr name app.uit.it.attendance.student:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3921,11 +4354,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetEndWithActions
+     * @attr name app.uit.it.attendance.student:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3934,11 +4367,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetLeft
+     * @attr name app.uit.it.attendance.student:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3947,11 +4380,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetRight
+     * @attr name app.uit.it.attendance.student:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3960,11 +4393,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetStart
+     * @attr name app.uit.it.attendance.student:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3973,11 +4406,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetStartWithNavigation
+     * @attr name app.uit.it.attendance.student:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3985,11 +4418,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:customNavigationLayout
+     * @attr name app.uit.it.attendance.student:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4007,11 +4440,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:displayOptions
+     * @attr name app.uit.it.attendance.student:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#divider}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4019,11 +4452,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:divider
+     * @attr name app.uit.it.attendance.student:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4032,11 +4465,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#height}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4045,21 +4478,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:height
+     * @attr name app.uit.it.attendance.student:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:hideOnContentScroll
+     * @attr name app.uit.it.attendance.student:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4067,11 +4500,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:homeAsUpIndicator
+     * @attr name app.uit.it.attendance.student:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4079,11 +4512,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:homeLayout
+     * @attr name app.uit.it.attendance.student:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#icon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4091,11 +4524,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:icon
+     * @attr name app.uit.it.attendance.student:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4103,11 +4536,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:indeterminateProgressStyle
+     * @attr name app.uit.it.attendance.student:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4116,11 +4549,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:itemPadding
+     * @attr name app.uit.it.attendance.student:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#logo}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4128,11 +4561,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:logo
+     * @attr name app.uit.it.attendance.student:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4146,11 +4579,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:navigationMode
+     * @attr name app.uit.it.attendance.student:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4158,11 +4591,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:popupTheme
+     * @attr name app.uit.it.attendance.student:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4171,11 +4604,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:progressBarPadding
+     * @attr name app.uit.it.attendance.student:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4183,21 +4616,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:progressBarStyle
+     * @attr name app.uit.it.attendance.student:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:subtitle
+     * @attr name app.uit.it.attendance.student:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4205,21 +4638,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:subtitleTextStyle
+     * @attr name app.uit.it.attendance.student:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#title}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:title
+     * @attr name app.uit.it.attendance.student:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4227,7 +4660,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:titleTextStyle
+     * @attr name app.uit.it.attendance.student:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4266,12 +4699,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.aisha.clientapp:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.aisha.clientapp:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.aisha.clientapp:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.aisha.clientapp:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.aisha.clientapp:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.aisha.clientapp:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background app.uit.it.attendance.student:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit app.uit.it.attendance.student:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout app.uit.it.attendance.student:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height app.uit.it.attendance.student:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle app.uit.it.attendance.student:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle app.uit.it.attendance.student:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4281,11 +4714,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f04002b, 0x7f04002c, 0x7f04004e, 0x7f040090, 
-        0x7f040108, 0x7f04013e
+        0x7f04002b, 0x7f04002c, 0x7f04004e, 0x7f040091, 
+        0x7f040134, 0x7f04016a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#background}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4293,11 +4726,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:background
+     * @attr name app.uit.it.attendance.student:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4308,11 +4741,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:backgroundSplit
+     * @attr name app.uit.it.attendance.student:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4320,11 +4753,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:closeItemLayout
+     * @attr name app.uit.it.attendance.student:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#height}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4333,11 +4766,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:height
+     * @attr name app.uit.it.attendance.student:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4345,11 +4778,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:subtitleTextStyle
+     * @attr name app.uit.it.attendance.student:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4357,7 +4790,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:titleTextStyle
+     * @attr name app.uit.it.attendance.student:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4367,17 +4800,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.aisha.clientapp:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.aisha.clientapp:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable app.uit.it.attendance.student:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount app.uit.it.attendance.student:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f040082, 0x7f04009b
+        0x7f040083, 0x7f04009c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4385,17 +4818,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:expandActivityOverflowButtonDrawable
+     * @attr name app.uit.it.attendance.student:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:initialActivityCount
+     * @attr name app.uit.it.attendance.student:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4406,12 +4839,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.aisha.clientapp:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.aisha.clientapp:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.aisha.clientapp:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.aisha.clientapp:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.example.aisha.clientapp:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.aisha.clientapp:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout app.uit.it.attendance.student:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout app.uit.it.attendance.student:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout app.uit.it.attendance.student:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout app.uit.it.attendance.student:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle app.uit.it.attendance.student:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout app.uit.it.attendance.student:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -4422,8 +4855,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f040040, 0x7f0400b2, 0x7f0400b3, 
-        0x7f0400c1, 0x7f0400f5, 0x7f0400f6
+        0x010100f2, 0x7f040040, 0x7f0400de, 0x7f0400df, 
+        0x7f0400ed, 0x7f040121, 0x7f040122
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4438,7 +4871,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4446,11 +4879,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonPanelSideLayout
+     * @attr name app.uit.it.attendance.student:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4458,11 +4891,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listItemLayout
+     * @attr name app.uit.it.attendance.student:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4470,11 +4903,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listLayout
+     * @attr name app.uit.it.attendance.student:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4482,21 +4915,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:multiChoiceItemLayout
+     * @attr name app.uit.it.attendance.student:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:showTitle
+     * @attr name app.uit.it.attendance.student:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4504,7 +4937,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:singleChoiceItemLayout
+     * @attr name app.uit.it.attendance.student:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -4515,15 +4948,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.example.aisha.clientapp:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded app.uit.it.attendance.student:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_elevation
      * @see #AppBarLayout_expanded
      */
     public static final int[] AppBarLayout={
-        0x010100d4, 0x7f04007f, 0x7f040083
+        0x010100d4, 0x7f040080, 0x7f040084
       };
     /**
      * Attributes that can be used with a AppBarLayoutStates.
@@ -4532,33 +4965,33 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.example.aisha.clientapp:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.example.aisha.clientapp:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed app.uit.it.attendance.student:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible app.uit.it.attendance.student:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
      */
     public static final int[] AppBarLayoutStates={
-        0x7f0400ff, 0x7f040100
+        0x7f04012b, 0x7f04012c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:state_collapsed
+     * @attr name app.uit.it.attendance.student:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:state_collapsible
+     * @attr name app.uit.it.attendance.student:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -4568,17 +5001,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.example.aisha.clientapp:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.example.aisha.clientapp:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags app.uit.it.attendance.student:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator app.uit.it.attendance.student:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-        0x7f0400ae, 0x7f0400af
+        0x7f0400da, 0x7f0400db
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4594,11 +5027,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:layout_scrollFlags
+     * @attr name app.uit.it.attendance.student:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4606,7 +5039,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:layout_scrollInterpolator
+     * @attr name app.uit.it.attendance.student:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -4625,7 +5058,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4634,17 +5067,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int AppBarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:expanded
+     * @attr name app.uit.it.attendance.student:expanded
      */
     public static final int AppBarLayout_expanded=2;
     /**
@@ -4655,9 +5088,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.aisha.clientapp:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.example.aisha.clientapp:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.aisha.clientapp:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat app.uit.it.attendance.student:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint app.uit.it.attendance.student:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode app.uit.it.attendance.student:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4665,7 +5098,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0400fc, 0x7f040132, 0x7f040133
+        0x01010119, 0x7f040128, 0x7f04015e, 0x7f04015f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4683,7 +5116,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4691,22 +5124,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:srcCompat
+     * @attr name app.uit.it.attendance.student:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tint
+     * @attr name app.uit.it.attendance.student:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4722,7 +5155,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:tintMode
+     * @attr name app.uit.it.attendance.student:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4733,9 +5166,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.aisha.clientapp:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.aisha.clientapp:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.aisha.clientapp:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark app.uit.it.attendance.student:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint app.uit.it.attendance.student:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode app.uit.it.attendance.student:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4743,7 +5176,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f04012f, 0x7f040130, 0x7f040131
+        0x01010142, 0x7f04015b, 0x7f04015c, 0x7f04015d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4758,7 +5191,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4766,22 +5199,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tickMark
+     * @attr name app.uit.it.attendance.student:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tickMarkTint
+     * @attr name app.uit.it.attendance.student:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4798,7 +5231,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:tickMarkTintMode
+     * @attr name app.uit.it.attendance.student:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4938,13 +5371,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.aisha.clientapp:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps app.uit.it.attendance.student:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f04011e
+        0x01010034, 0x7f04014a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4959,7 +5392,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4969,7 +5402,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:textAllCaps
+     * @attr name app.uit.it.attendance.student:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
     /**
@@ -4981,120 +5414,120 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.aisha.clientapp:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.aisha.clientapp:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.aisha.clientapp:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.aisha.clientapp:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.aisha.clientapp:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.aisha.clientapp:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.aisha.clientapp:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.aisha.clientapp:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.aisha.clientapp:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.aisha.clientapp:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.aisha.clientapp:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.aisha.clientapp:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.aisha.clientapp:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.aisha.clientapp:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.aisha.clientapp:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.aisha.clientapp:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.aisha.clientapp:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.aisha.clientapp:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.aisha.clientapp:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.aisha.clientapp:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.aisha.clientapp:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.aisha.clientapp:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.aisha.clientapp:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.aisha.clientapp:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.aisha.clientapp:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.aisha.clientapp:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.aisha.clientapp:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.aisha.clientapp:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.aisha.clientapp:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.aisha.clientapp:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.aisha.clientapp:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.aisha.clientapp:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.aisha.clientapp:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.aisha.clientapp:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.aisha.clientapp:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.aisha.clientapp:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.aisha.clientapp:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.aisha.clientapp:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.aisha.clientapp:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.aisha.clientapp:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.aisha.clientapp:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.aisha.clientapp:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.aisha.clientapp:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.aisha.clientapp:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.aisha.clientapp:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.aisha.clientapp:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.aisha.clientapp:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.aisha.clientapp:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.aisha.clientapp:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.aisha.clientapp:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.aisha.clientapp:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.aisha.clientapp:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.aisha.clientapp:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.aisha.clientapp:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.aisha.clientapp:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.aisha.clientapp:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.aisha.clientapp:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.aisha.clientapp:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.aisha.clientapp:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.aisha.clientapp:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.aisha.clientapp:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.aisha.clientapp:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.aisha.clientapp:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.aisha.clientapp:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.aisha.clientapp:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.aisha.clientapp:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.aisha.clientapp:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.aisha.clientapp:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.aisha.clientapp:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.aisha.clientapp:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.aisha.clientapp:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.aisha.clientapp:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.aisha.clientapp:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.aisha.clientapp:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.aisha.clientapp:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.aisha.clientapp:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.aisha.clientapp:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.aisha.clientapp:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.aisha.clientapp:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.aisha.clientapp:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.aisha.clientapp:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.aisha.clientapp:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.aisha.clientapp:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.aisha.clientapp:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.aisha.clientapp:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.aisha.clientapp:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.aisha.clientapp:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.aisha.clientapp:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.aisha.clientapp:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.aisha.clientapp:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.aisha.clientapp:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.aisha.clientapp:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.aisha.clientapp:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.aisha.clientapp:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.aisha.clientapp:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.aisha.clientapp:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.aisha.clientapp:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.aisha.clientapp:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.aisha.clientapp:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.aisha.clientapp:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.aisha.clientapp:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.aisha.clientapp:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.aisha.clientapp:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.aisha.clientapp:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.aisha.clientapp:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.aisha.clientapp:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.aisha.clientapp:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.aisha.clientapp:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.aisha.clientapp:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.aisha.clientapp:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.aisha.clientapp:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.aisha.clientapp:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.aisha.clientapp:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.aisha.clientapp:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider app.uit.it.attendance.student:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground app.uit.it.attendance.student:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme app.uit.it.attendance.student:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize app.uit.it.attendance.student:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle app.uit.it.attendance.student:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle app.uit.it.attendance.student:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle app.uit.it.attendance.student:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle app.uit.it.attendance.student:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle app.uit.it.attendance.student:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme app.uit.it.attendance.student:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme app.uit.it.attendance.student:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle app.uit.it.attendance.student:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle app.uit.it.attendance.student:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance app.uit.it.attendance.student:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor app.uit.it.attendance.student:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground app.uit.it.attendance.student:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle app.uit.it.attendance.student:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable app.uit.it.attendance.student:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable app.uit.it.attendance.student:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable app.uit.it.attendance.student:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable app.uit.it.attendance.student:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable app.uit.it.attendance.student:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle app.uit.it.attendance.student:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable app.uit.it.attendance.student:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable app.uit.it.attendance.student:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground app.uit.it.attendance.student:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle app.uit.it.attendance.student:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable app.uit.it.attendance.student:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle app.uit.it.attendance.student:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle app.uit.it.attendance.student:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle app.uit.it.attendance.student:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle app.uit.it.attendance.student:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons app.uit.it.attendance.student:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle app.uit.it.attendance.student:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme app.uit.it.attendance.student:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle app.uit.it.attendance.student:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle app.uit.it.attendance.student:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle app.uit.it.attendance.student:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle app.uit.it.attendance.student:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle app.uit.it.attendance.student:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle app.uit.it.attendance.student:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle app.uit.it.attendance.student:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle app.uit.it.attendance.student:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall app.uit.it.attendance.student:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle app.uit.it.attendance.student:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle app.uit.it.attendance.student:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent app.uit.it.attendance.student:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating app.uit.it.attendance.student:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal app.uit.it.attendance.student:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated app.uit.it.attendance.student:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight app.uit.it.attendance.student:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal app.uit.it.attendance.student:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary app.uit.it.attendance.student:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark app.uit.it.attendance.student:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal app.uit.it.attendance.student:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground app.uit.it.attendance.student:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding app.uit.it.attendance.student:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme app.uit.it.attendance.student:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal app.uit.it.attendance.student:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical app.uit.it.attendance.student:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle app.uit.it.attendance.student:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight app.uit.it.attendance.student:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground app.uit.it.attendance.student:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor app.uit.it.attendance.student:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle app.uit.it.attendance.student:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator app.uit.it.attendance.student:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle app.uit.it.attendance.student:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator app.uit.it.attendance.student:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog app.uit.it.attendance.student:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle app.uit.it.attendance.student:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle app.uit.it.attendance.student:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight app.uit.it.attendance.student:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge app.uit.it.attendance.student:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall app.uit.it.attendance.student:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft app.uit.it.attendance.student:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight app.uit.it.attendance.student:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground app.uit.it.attendance.student:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme app.uit.it.attendance.student:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth app.uit.it.attendance.student:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle app.uit.it.attendance.student:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle app.uit.it.attendance.student:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle app.uit.it.attendance.student:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle app.uit.it.attendance.student:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator app.uit.it.attendance.student:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall app.uit.it.attendance.student:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle app.uit.it.attendance.student:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle app.uit.it.attendance.student:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground app.uit.it.attendance.student:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless app.uit.it.attendance.student:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle app.uit.it.attendance.student:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle app.uit.it.attendance.student:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle app.uit.it.attendance.student:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu app.uit.it.attendance.student:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem app.uit.it.attendance.student:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary app.uit.it.attendance.student:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall app.uit.it.attendance.student:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader app.uit.it.attendance.student:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle app.uit.it.attendance.student:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle app.uit.it.attendance.student:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu app.uit.it.attendance.student:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem app.uit.it.attendance.student:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl app.uit.it.attendance.student:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle app.uit.it.attendance.student:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle app.uit.it.attendance.student:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar app.uit.it.attendance.student:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay app.uit.it.attendance.student:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay app.uit.it.attendance.student:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor app.uit.it.attendance.student:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor app.uit.it.attendance.student:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor app.uit.it.attendance.student:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor app.uit.it.attendance.student:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor app.uit.it.attendance.student:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor app.uit.it.attendance.student:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle app.uit.it.attendance.student:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5228,24 +5661,24 @@ public final class R {
         0x7f040041, 0x7f040042, 0x7f04004b, 0x7f04004c, 
         0x7f040054, 0x7f040055, 0x7f040056, 0x7f040057, 
         0x7f040058, 0x7f040059, 0x7f04005a, 0x7f04005b, 
-        0x7f04005c, 0x7f04006a, 0x7f040071, 0x7f040072, 
-        0x7f040075, 0x7f040077, 0x7f04007a, 0x7f04007b, 
-        0x7f04007c, 0x7f04007d, 0x7f04007e, 0x7f040095, 
-        0x7f040099, 0x7f0400b0, 0x7f0400b1, 0x7f0400b4, 
-        0x7f0400b5, 0x7f0400b6, 0x7f0400b7, 0x7f0400b8, 
-        0x7f0400b9, 0x7f0400ba, 0x7f0400ca, 0x7f0400cb, 
-        0x7f0400cc, 0x7f0400db, 0x7f0400dd, 0x7f0400e4, 
-        0x7f0400e5, 0x7f0400e6, 0x7f0400e7, 0x7f0400ee, 
-        0x7f0400ef, 0x7f0400f0, 0x7f0400f1, 0x7f0400f9, 
-        0x7f0400fa, 0x7f04010c, 0x7f04011f, 0x7f040120, 
-        0x7f040121, 0x7f040122, 0x7f040123, 0x7f040124, 
-        0x7f040125, 0x7f040126, 0x7f040127, 0x7f040129, 
-        0x7f040140, 0x7f040141, 0x7f040147, 0x7f040148, 
-        0x7f040149, 0x7f04014a, 0x7f04014b, 0x7f04014c, 
-        0x7f04014d, 0x7f04014e, 0x7f04014f, 0x7f040150
+        0x7f04005c, 0x7f04006b, 0x7f040072, 0x7f040073, 
+        0x7f040076, 0x7f040078, 0x7f04007b, 0x7f04007c, 
+        0x7f04007d, 0x7f04007e, 0x7f04007f, 0x7f040096, 
+        0x7f04009a, 0x7f0400dc, 0x7f0400dd, 0x7f0400e0, 
+        0x7f0400e1, 0x7f0400e2, 0x7f0400e3, 0x7f0400e4, 
+        0x7f0400e5, 0x7f0400e6, 0x7f0400f6, 0x7f0400f7, 
+        0x7f0400f8, 0x7f040107, 0x7f040109, 0x7f040110, 
+        0x7f040111, 0x7f040112, 0x7f040113, 0x7f04011a, 
+        0x7f04011b, 0x7f04011c, 0x7f04011d, 0x7f040125, 
+        0x7f040126, 0x7f040138, 0x7f04014b, 0x7f04014c, 
+        0x7f04014d, 0x7f04014e, 0x7f04014f, 0x7f040150, 
+        0x7f040151, 0x7f040152, 0x7f040153, 0x7f040155, 
+        0x7f04016c, 0x7f04016d, 0x7f040173, 0x7f040174, 
+        0x7f040175, 0x7f040176, 0x7f040177, 0x7f040178, 
+        0x7f040179, 0x7f04017a, 0x7f04017b, 0x7f04017c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5253,11 +5686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarDivider
+     * @attr name app.uit.it.attendance.student:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5265,11 +5698,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarItemBackground
+     * @attr name app.uit.it.attendance.student:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5277,11 +5710,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarPopupTheme
+     * @attr name app.uit.it.attendance.student:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5298,11 +5731,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:actionBarSize
+     * @attr name app.uit.it.attendance.student:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5310,11 +5743,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarSplitStyle
+     * @attr name app.uit.it.attendance.student:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5322,11 +5755,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarStyle
+     * @attr name app.uit.it.attendance.student:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5334,11 +5767,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarTabBarStyle
+     * @attr name app.uit.it.attendance.student:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5346,11 +5779,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarTabStyle
+     * @attr name app.uit.it.attendance.student:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5358,11 +5791,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarTabTextStyle
+     * @attr name app.uit.it.attendance.student:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5370,11 +5803,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarTheme
+     * @attr name app.uit.it.attendance.student:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5382,11 +5815,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionBarWidgetTheme
+     * @attr name app.uit.it.attendance.student:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5394,11 +5827,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionButtonStyle
+     * @attr name app.uit.it.attendance.student:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5406,11 +5839,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionDropDownStyle
+     * @attr name app.uit.it.attendance.student:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5418,11 +5851,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionMenuTextAppearance
+     * @attr name app.uit.it.attendance.student:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5433,11 +5866,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionMenuTextColor
+     * @attr name app.uit.it.attendance.student:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5445,11 +5878,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeBackground
+     * @attr name app.uit.it.attendance.student:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5457,11 +5890,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeCloseButtonStyle
+     * @attr name app.uit.it.attendance.student:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5469,11 +5902,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeCloseDrawable
+     * @attr name app.uit.it.attendance.student:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5481,11 +5914,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeCopyDrawable
+     * @attr name app.uit.it.attendance.student:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5493,11 +5926,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeCutDrawable
+     * @attr name app.uit.it.attendance.student:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5505,11 +5938,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeFindDrawable
+     * @attr name app.uit.it.attendance.student:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5517,11 +5950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModePasteDrawable
+     * @attr name app.uit.it.attendance.student:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5529,11 +5962,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModePopupWindowStyle
+     * @attr name app.uit.it.attendance.student:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5541,11 +5974,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeSelectAllDrawable
+     * @attr name app.uit.it.attendance.student:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5553,11 +5986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeShareDrawable
+     * @attr name app.uit.it.attendance.student:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5565,11 +5998,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeSplitBackground
+     * @attr name app.uit.it.attendance.student:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5577,11 +6010,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeStyle
+     * @attr name app.uit.it.attendance.student:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5589,11 +6022,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionModeWebSearchDrawable
+     * @attr name app.uit.it.attendance.student:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5601,11 +6034,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionOverflowButtonStyle
+     * @attr name app.uit.it.attendance.student:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5613,11 +6046,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionOverflowMenuStyle
+     * @attr name app.uit.it.attendance.student:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5625,11 +6058,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:activityChooserViewStyle
+     * @attr name app.uit.it.attendance.student:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5637,21 +6070,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:alertDialogButtonGroupStyle
+     * @attr name app.uit.it.attendance.student:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:alertDialogCenterButtons
+     * @attr name app.uit.it.attendance.student:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5659,11 +6092,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:alertDialogStyle
+     * @attr name app.uit.it.attendance.student:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5671,7 +6104,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:alertDialogTheme
+     * @attr name app.uit.it.attendance.student:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -5697,7 +6130,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5705,11 +6138,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:autoCompleteTextViewStyle
+     * @attr name app.uit.it.attendance.student:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5717,11 +6150,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:borderlessButtonStyle
+     * @attr name app.uit.it.attendance.student:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5729,11 +6162,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonBarButtonStyle
+     * @attr name app.uit.it.attendance.student:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5741,11 +6174,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonBarNegativeButtonStyle
+     * @attr name app.uit.it.attendance.student:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5753,11 +6186,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonBarNeutralButtonStyle
+     * @attr name app.uit.it.attendance.student:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5765,11 +6198,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonBarPositiveButtonStyle
+     * @attr name app.uit.it.attendance.student:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5777,11 +6210,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonBarStyle
+     * @attr name app.uit.it.attendance.student:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5789,11 +6222,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonStyle
+     * @attr name app.uit.it.attendance.student:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5801,11 +6234,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonStyleSmall
+     * @attr name app.uit.it.attendance.student:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5813,11 +6246,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:checkboxStyle
+     * @attr name app.uit.it.attendance.student:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5825,110 +6258,110 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:checkedTextViewStyle
+     * @attr name app.uit.it.attendance.student:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorAccent
+     * @attr name app.uit.it.attendance.student:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorBackgroundFloating
+     * @attr name app.uit.it.attendance.student:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorButtonNormal
+     * @attr name app.uit.it.attendance.student:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorControlActivated
+     * @attr name app.uit.it.attendance.student:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorControlHighlight
+     * @attr name app.uit.it.attendance.student:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorControlNormal
+     * @attr name app.uit.it.attendance.student:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorPrimary
+     * @attr name app.uit.it.attendance.student:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorPrimaryDark
+     * @attr name app.uit.it.attendance.student:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:colorSwitchThumbNormal
+     * @attr name app.uit.it.attendance.student:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5936,11 +6369,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:controlBackground
+     * @attr name app.uit.it.attendance.student:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5949,11 +6382,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:dialogPreferredPadding
+     * @attr name app.uit.it.attendance.student:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5961,11 +6394,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:dialogTheme
+     * @attr name app.uit.it.attendance.student:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5973,11 +6406,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:dividerHorizontal
+     * @attr name app.uit.it.attendance.student:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5985,11 +6418,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:dividerVertical
+     * @attr name app.uit.it.attendance.student:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5997,11 +6430,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:dropDownListViewStyle
+     * @attr name app.uit.it.attendance.student:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6010,11 +6443,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:dropdownListPreferredItemHeight
+     * @attr name app.uit.it.attendance.student:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6022,11 +6455,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:editTextBackground
+     * @attr name app.uit.it.attendance.student:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6037,11 +6470,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:editTextColor
+     * @attr name app.uit.it.attendance.student:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6049,11 +6482,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:editTextStyle
+     * @attr name app.uit.it.attendance.student:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6061,11 +6494,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:homeAsUpIndicator
+     * @attr name app.uit.it.attendance.student:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6073,11 +6506,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:imageButtonStyle
+     * @attr name app.uit.it.attendance.student:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6085,11 +6518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listChoiceBackgroundIndicator
+     * @attr name app.uit.it.attendance.student:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6097,11 +6530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listDividerAlertDialog
+     * @attr name app.uit.it.attendance.student:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6109,11 +6542,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listMenuViewStyle
+     * @attr name app.uit.it.attendance.student:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6121,11 +6554,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:listPopupWindowStyle
+     * @attr name app.uit.it.attendance.student:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6134,11 +6567,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:listPreferredItemHeight
+     * @attr name app.uit.it.attendance.student:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6147,11 +6580,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:listPreferredItemHeightLarge
+     * @attr name app.uit.it.attendance.student:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6160,11 +6593,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:listPreferredItemHeightSmall
+     * @attr name app.uit.it.attendance.student:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6173,11 +6606,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:listPreferredItemPaddingLeft
+     * @attr name app.uit.it.attendance.student:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6186,11 +6619,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:listPreferredItemPaddingRight
+     * @attr name app.uit.it.attendance.student:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6198,11 +6631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:panelBackground
+     * @attr name app.uit.it.attendance.student:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6210,11 +6643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:panelMenuListTheme
+     * @attr name app.uit.it.attendance.student:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6223,11 +6656,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:panelMenuListWidth
+     * @attr name app.uit.it.attendance.student:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6235,11 +6668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:popupMenuStyle
+     * @attr name app.uit.it.attendance.student:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6247,11 +6680,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:popupWindowStyle
+     * @attr name app.uit.it.attendance.student:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6259,11 +6692,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:radioButtonStyle
+     * @attr name app.uit.it.attendance.student:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6271,11 +6704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:ratingBarStyle
+     * @attr name app.uit.it.attendance.student:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6283,11 +6716,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:ratingBarStyleIndicator
+     * @attr name app.uit.it.attendance.student:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6295,11 +6728,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:ratingBarStyleSmall
+     * @attr name app.uit.it.attendance.student:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6307,11 +6740,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:searchViewStyle
+     * @attr name app.uit.it.attendance.student:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6319,11 +6752,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:seekBarStyle
+     * @attr name app.uit.it.attendance.student:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6331,11 +6764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:selectableItemBackground
+     * @attr name app.uit.it.attendance.student:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6343,11 +6776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:selectableItemBackgroundBorderless
+     * @attr name app.uit.it.attendance.student:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6355,11 +6788,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:spinnerDropDownItemStyle
+     * @attr name app.uit.it.attendance.student:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6367,11 +6800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:spinnerStyle
+     * @attr name app.uit.it.attendance.student:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6379,11 +6812,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:switchStyle
+     * @attr name app.uit.it.attendance.student:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6391,11 +6824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceLargePopupMenu
+     * @attr name app.uit.it.attendance.student:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6403,11 +6836,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceListItem
+     * @attr name app.uit.it.attendance.student:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6415,11 +6848,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceListItemSecondary
+     * @attr name app.uit.it.attendance.student:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6427,11 +6860,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceListItemSmall
+     * @attr name app.uit.it.attendance.student:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6439,11 +6872,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearancePopupMenuHeader
+     * @attr name app.uit.it.attendance.student:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6451,11 +6884,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceSearchResultSubtitle
+     * @attr name app.uit.it.attendance.student:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6463,11 +6896,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceSearchResultTitle
+     * @attr name app.uit.it.attendance.student:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6475,11 +6908,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textAppearanceSmallPopupMenu
+     * @attr name app.uit.it.attendance.student:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6490,11 +6923,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textColorAlertDialogListItem
+     * @attr name app.uit.it.attendance.student:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6505,11 +6938,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textColorSearchUrl
+     * @attr name app.uit.it.attendance.student:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6517,11 +6950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:toolbarNavigationButtonStyle
+     * @attr name app.uit.it.attendance.student:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6529,41 +6962,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:toolbarStyle
+     * @attr name app.uit.it.attendance.student:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:windowActionBar
+     * @attr name app.uit.it.attendance.student:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:windowActionBarOverlay
+     * @attr name app.uit.it.attendance.student:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:windowActionModeOverlay
+     * @attr name app.uit.it.attendance.student:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6576,11 +7009,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowFixedHeightMajor
+     * @attr name app.uit.it.attendance.student:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6593,11 +7026,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowFixedHeightMinor
+     * @attr name app.uit.it.attendance.student:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6610,11 +7043,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowFixedWidthMajor
+     * @attr name app.uit.it.attendance.student:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6627,11 +7060,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowFixedWidthMinor
+     * @attr name app.uit.it.attendance.student:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6644,11 +7077,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowMinWidthMajor
+     * @attr name app.uit.it.attendance.student:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6661,17 +7094,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.aisha.clientapp:windowMinWidthMinor
+     * @attr name app.uit.it.attendance.student:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:windowNoTitle
+     * @attr name app.uit.it.attendance.student:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=115;
     /**
@@ -6681,11 +7114,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.example.aisha.clientapp:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.example.aisha.clientapp:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.example.aisha.clientapp:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.example.aisha.clientapp:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground app.uit.it.attendance.student:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint app.uit.it.attendance.student:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor app.uit.it.attendance.student:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu app.uit.it.attendance.student:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -6694,11 +7127,11 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-        0x7f04007f, 0x7f04009e, 0x7f04009f, 0x7f0400a2, 
-        0x7f0400c0
+        0x7f040080, 0x7f04009f, 0x7f0400a0, 0x7f0400a3, 
+        0x7f0400ec
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6707,11 +7140,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6719,33 +7152,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemBackground
+     * @attr name app.uit.it.attendance.student:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemIconTint
+     * @attr name app.uit.it.attendance.student:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemTextColor
+     * @attr name app.uit.it.attendance.student:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#menu}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6753,7 +7186,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:menu
+     * @attr name app.uit.it.attendance.student:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -6763,9 +7196,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.example.aisha.clientapp:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.example.aisha.clientapp:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.example.aisha.clientapp:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable app.uit.it.attendance.student:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight app.uit.it.attendance.student:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed app.uit.it.attendance.student:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -6775,17 +7208,17 @@ public final class R {
         0x7f040032, 0x7f040034, 0x7f040035
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:behavior_hideable
+     * @attr name app.uit.it.attendance.student:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6802,17 +7235,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:behavior_peekHeight
+     * @attr name app.uit.it.attendance.student:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:behavior_skipCollapsed
+     * @attr name app.uit.it.attendance.student:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -6822,7 +7255,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.aisha.clientapp:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking app.uit.it.attendance.student:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6830,13 +7263,13 @@ public final class R {
         0x7f040026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:allowStacking
+     * @attr name app.uit.it.attendance.student:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6848,17 +7281,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.example.aisha.clientapp:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.example.aisha.clientapp:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.example.aisha.clientapp:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.example.aisha.clientapp:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.aisha.clientapp:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.aisha.clientapp:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.example.aisha.clientapp:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.example.aisha.clientapp:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.example.aisha.clientapp:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.example.aisha.clientapp:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.example.aisha.clientapp:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor app.uit.it.attendance.student:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius app.uit.it.attendance.student:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation app.uit.it.attendance.student:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation app.uit.it.attendance.student:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap app.uit.it.attendance.student:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding app.uit.it.attendance.student:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding app.uit.it.attendance.student:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom app.uit.it.attendance.student:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft app.uit.it.attendance.student:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight app.uit.it.attendance.student:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop app.uit.it.attendance.student:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -6877,8 +7310,8 @@ public final class R {
     public static final int[] CardView={
         0x0101013f, 0x01010140, 0x7f040045, 0x7f040046, 
         0x7f040047, 0x7f040048, 0x7f040049, 0x7f04004a, 
-        0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 
-        0x7f040068
+        0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068, 
+        0x7f040069
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
@@ -6907,18 +7340,18 @@ public final class R {
      */
     public static final int CardView_android_minWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:cardBackgroundColor
+     * @attr name app.uit.it.attendance.student:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6927,11 +7360,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:cardCornerRadius
+     * @attr name app.uit.it.attendance.student:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6940,11 +7373,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:cardElevation
+     * @attr name app.uit.it.attendance.student:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6953,31 +7386,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:cardMaxElevation
+     * @attr name app.uit.it.attendance.student:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:cardPreventCornerOverlap
+     * @attr name app.uit.it.attendance.student:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:cardUseCompatPadding
+     * @attr name app.uit.it.attendance.student:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6986,11 +7419,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentPadding
+     * @attr name app.uit.it.attendance.student:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6999,11 +7432,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentPaddingBottom
+     * @attr name app.uit.it.attendance.student:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7012,11 +7445,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentPaddingLeft
+     * @attr name app.uit.it.attendance.student:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7025,11 +7458,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentPaddingRight
+     * @attr name app.uit.it.attendance.student:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7038,7 +7471,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentPaddingTop
+     * @attr name app.uit.it.attendance.student:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -7048,22 +7481,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.aisha.clientapp:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.aisha.clientapp:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.aisha.clientapp:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.aisha.clientapp:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.aisha.clientapp:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.aisha.clientapp:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.aisha.clientapp:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.aisha.clientapp:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.aisha.clientapp:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.aisha.clientapp:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.example.aisha.clientapp:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.example.aisha.clientapp:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.aisha.clientapp:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.aisha.clientapp:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.aisha.clientapp:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.aisha.clientapp:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity app.uit.it.attendance.student:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance app.uit.it.attendance.student:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim app.uit.it.attendance.student:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity app.uit.it.attendance.student:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin app.uit.it.attendance.student:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom app.uit.it.attendance.student:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd app.uit.it.attendance.student:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart app.uit.it.attendance.student:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop app.uit.it.attendance.student:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance app.uit.it.attendance.student:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration app.uit.it.attendance.student:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger app.uit.it.attendance.student:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim app.uit.it.attendance.student:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title app.uit.it.attendance.student:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled app.uit.it.attendance.student:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId app.uit.it.attendance.student:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -7083,10 +7516,10 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-        0x7f040051, 0x7f040052, 0x7f040069, 0x7f040084, 
-        0x7f040085, 0x7f040086, 0x7f040087, 0x7f040088, 
-        0x7f040089, 0x7f04008a, 0x7f0400ea, 0x7f0400eb, 
-        0x7f040102, 0x7f040134, 0x7f040135, 0x7f04013f
+        0x7f040051, 0x7f040052, 0x7f04006a, 0x7f040085, 
+        0x7f040086, 0x7f040087, 0x7f040088, 0x7f040089, 
+        0x7f04008a, 0x7f04008b, 0x7f040116, 0x7f040117, 
+        0x7f04012e, 0x7f040160, 0x7f040161, 0x7f04016b
       };
     /**
      * Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -7095,17 +7528,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.example.aisha.clientapp:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.example.aisha.clientapp:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode app.uit.it.attendance.student:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier app.uit.it.attendance.student:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f0400a9, 0x7f0400aa
+        0x7f0400aa, 0x7f0400ab
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7119,20 +7552,20 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:layout_collapseMode
+     * @attr name app.uit.it.attendance.student:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.aisha.clientapp:layout_collapseParallaxMultiplier
+     * @attr name app.uit.it.attendance.student:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7153,11 +7586,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:collapsedTitleGravity
+     * @attr name app.uit.it.attendance.student:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7165,22 +7598,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:collapsedTitleTextAppearance
+     * @attr name app.uit.it.attendance.student:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:contentScrim
+     * @attr name app.uit.it.attendance.student:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7201,11 +7634,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleGravity
+     * @attr name app.uit.it.attendance.student:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7214,11 +7647,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleMargin
+     * @attr name app.uit.it.attendance.student:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7227,11 +7660,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleMarginBottom
+     * @attr name app.uit.it.attendance.student:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7240,11 +7673,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleMarginEnd
+     * @attr name app.uit.it.attendance.student:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7253,11 +7686,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleMarginStart
+     * @attr name app.uit.it.attendance.student:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7266,11 +7699,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleMarginTop
+     * @attr name app.uit.it.attendance.student:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7278,20 +7711,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:expandedTitleTextAppearance
+     * @attr name app.uit.it.attendance.student:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.aisha.clientapp:scrimAnimationDuration
+     * @attr name app.uit.it.attendance.student:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7300,42 +7733,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:scrimVisibleHeightTrigger
+     * @attr name app.uit.it.attendance.student:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:statusBarScrim
+     * @attr name app.uit.it.attendance.student:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#title}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:title
+     * @attr name app.uit.it.attendance.student:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:titleEnabled
+     * @attr name app.uit.it.attendance.student:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7343,7 +7776,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:toolbarId
+     * @attr name app.uit.it.attendance.student:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -7355,7 +7788,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.aisha.clientapp:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha app.uit.it.attendance.student:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7365,12 +7798,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f040027
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.aisha.clientapp:alpha
+     * @attr name app.uit.it.attendance.student:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7401,8 +7834,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.aisha.clientapp:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.aisha.clientapp:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint app.uit.it.attendance.student:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode app.uit.it.attendance.student:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -7424,18 +7857,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:buttonTint
+     * @attr name app.uit.it.attendance.student:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7451,9 +7884,1904 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:buttonTintMode
+     * @attr name app.uit.it.attendance.student:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
+    /**
+     * Attributes that can be used with a ConstraintLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet app.uit.it.attendance.student:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator app.uit.it.attendance.student:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf app.uit.it.attendance.student:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator app.uit.it.attendance.student:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf app.uit.it.attendance.student:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf app.uit.it.attendance.student:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio app.uit.it.attendance.student:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf app.uit.it.attendance.student:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf app.uit.it.attendance.student:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin app.uit.it.attendance.student:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end app.uit.it.attendance.student:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent app.uit.it.attendance.student:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default app.uit.it.attendance.student:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max app.uit.it.attendance.student:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min app.uit.it.attendance.student:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias app.uit.it.attendance.student:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle app.uit.it.attendance.student:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight app.uit.it.attendance.student:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator app.uit.it.attendance.student:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf app.uit.it.attendance.student:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf app.uit.it.attendance.student:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator app.uit.it.attendance.student:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf app.uit.it.attendance.student:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf app.uit.it.attendance.student:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf app.uit.it.attendance.student:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf app.uit.it.attendance.student:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator app.uit.it.attendance.student:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf app.uit.it.attendance.student:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf app.uit.it.attendance.student:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias app.uit.it.attendance.student:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle app.uit.it.attendance.student:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight app.uit.it.attendance.student:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default app.uit.it.attendance.student:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max app.uit.it.attendance.student:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min app.uit.it.attendance.student:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX app.uit.it.attendance.student:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY app.uit.it.attendance.student:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom app.uit.it.attendance.student:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd app.uit.it.attendance.student:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft app.uit.it.attendance.student:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight app.uit.it.attendance.student:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart app.uit.it.attendance.student:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop app.uit.it.attendance.student:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel app.uit.it.attendance.student:layout_optimizationLevel}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_Layout_android_orientation
+     * @see #ConstraintLayout_Layout_android_maxWidth
+     * @see #ConstraintLayout_Layout_android_maxHeight
+     * @see #ConstraintLayout_Layout_android_minWidth
+     * @see #ConstraintLayout_Layout_android_minHeight
+     * @see #ConstraintLayout_Layout_constraintSet
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_begin
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_end
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_percent
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_default
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_max
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_min
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_creator
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_creator
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintTop_creator
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_bias
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_weight
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_default
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_max
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_min
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteX
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteY
+     * @see #ConstraintLayout_Layout_layout_goneMarginBottom
+     * @see #ConstraintLayout_Layout_layout_goneMarginEnd
+     * @see #ConstraintLayout_Layout_layout_goneMarginLeft
+     * @see #ConstraintLayout_Layout_layout_goneMarginRight
+     * @see #ConstraintLayout_Layout_layout_goneMarginStart
+     * @see #ConstraintLayout_Layout_layout_goneMarginTop
+     * @see #ConstraintLayout_Layout_layout_optimizationLevel
+     */
+    public static final int[] ConstraintLayout_Layout={
+        0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x7f04005e, 0x7f0400ac, 0x7f0400ad, 
+        0x7f0400ae, 0x7f0400af, 0x7f0400b0, 0x7f0400b1, 
+        0x7f0400b2, 0x7f0400b3, 0x7f0400b4, 0x7f0400b5, 
+        0x7f0400b6, 0x7f0400b7, 0x7f0400b8, 0x7f0400b9, 
+        0x7f0400ba, 0x7f0400bb, 0x7f0400bc, 0x7f0400bd, 
+        0x7f0400be, 0x7f0400bf, 0x7f0400c0, 0x7f0400c1, 
+        0x7f0400c2, 0x7f0400c3, 0x7f0400c4, 0x7f0400c5, 
+        0x7f0400c6, 0x7f0400c7, 0x7f0400c8, 0x7f0400c9, 
+        0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400cd, 
+        0x7f0400cf, 0x7f0400d0, 0x7f0400d1, 0x7f0400d2, 
+        0x7f0400d3, 0x7f0400d4, 0x7f0400d5, 0x7f0400d6, 
+        0x7f0400d9
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintLayout_Layout_android_maxHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintLayout_Layout_android_maxWidth=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintLayout_Layout_android_minHeight=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintLayout_Layout_android_minWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintLayout_Layout_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#constraintSet}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.uit.it.attendance.student:constraintSet
+     */
+    public static final int ConstraintLayout_Layout_constraintSet=5;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_begin
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_end
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_editor_absoluteX
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_editor_absoluteY
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginBottom
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginEnd
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginLeft
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginRight
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginStart
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginTop
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_optimizationLevel}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>all</td><td>2</td><td></td></tr>
+     * <tr><td>basic</td><td>4</td><td></td></tr>
+     * <tr><td>chains</td><td>8</td><td></td></tr>
+     * <tr><td>none</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_optimizationLevel
+     */
+    public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
+    /**
+     * Attributes that can be used with a ConstraintSet.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator app.uit.it.attendance.student:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf app.uit.it.attendance.student:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator app.uit.it.attendance.student:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf app.uit.it.attendance.student:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf app.uit.it.attendance.student:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio app.uit.it.attendance.student:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf app.uit.it.attendance.student:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf app.uit.it.attendance.student:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin app.uit.it.attendance.student:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end app.uit.it.attendance.student:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent app.uit.it.attendance.student:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default app.uit.it.attendance.student:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max app.uit.it.attendance.student:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min app.uit.it.attendance.student:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias app.uit.it.attendance.student:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle app.uit.it.attendance.student:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight app.uit.it.attendance.student:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator app.uit.it.attendance.student:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf app.uit.it.attendance.student:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf app.uit.it.attendance.student:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator app.uit.it.attendance.student:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf app.uit.it.attendance.student:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf app.uit.it.attendance.student:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf app.uit.it.attendance.student:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf app.uit.it.attendance.student:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator app.uit.it.attendance.student:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf app.uit.it.attendance.student:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf app.uit.it.attendance.student:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias app.uit.it.attendance.student:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle app.uit.it.attendance.student:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight app.uit.it.attendance.student:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default app.uit.it.attendance.student:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max app.uit.it.attendance.student:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min app.uit.it.attendance.student:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX app.uit.it.attendance.student:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY app.uit.it.attendance.student:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom app.uit.it.attendance.student:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd app.uit.it.attendance.student:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft app.uit.it.attendance.student:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight app.uit.it.attendance.student:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart app.uit.it.attendance.student:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop app.uit.it.attendance.student:layout_goneMarginTop}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintSet_android_orientation
+     * @see #ConstraintSet_android_id
+     * @see #ConstraintSet_android_visibility
+     * @see #ConstraintSet_android_layout_width
+     * @see #ConstraintSet_android_layout_height
+     * @see #ConstraintSet_android_layout_marginLeft
+     * @see #ConstraintSet_android_layout_marginTop
+     * @see #ConstraintSet_android_layout_marginRight
+     * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_alpha
+     * @see #ConstraintSet_android_transformPivotX
+     * @see #ConstraintSet_android_transformPivotY
+     * @see #ConstraintSet_android_translationX
+     * @see #ConstraintSet_android_translationY
+     * @see #ConstraintSet_android_scaleX
+     * @see #ConstraintSet_android_scaleY
+     * @see #ConstraintSet_android_rotationX
+     * @see #ConstraintSet_android_rotationY
+     * @see #ConstraintSet_android_layout_marginStart
+     * @see #ConstraintSet_android_layout_marginEnd
+     * @see #ConstraintSet_android_translationZ
+     * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_layout_constraintBaseline_creator
+     * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintSet_layout_constraintBottom_creator
+     * @see #ConstraintSet_layout_constraintBottom_toBottomOf
+     * @see #ConstraintSet_layout_constraintBottom_toTopOf
+     * @see #ConstraintSet_layout_constraintDimensionRatio
+     * @see #ConstraintSet_layout_constraintEnd_toEndOf
+     * @see #ConstraintSet_layout_constraintEnd_toStartOf
+     * @see #ConstraintSet_layout_constraintGuide_begin
+     * @see #ConstraintSet_layout_constraintGuide_end
+     * @see #ConstraintSet_layout_constraintGuide_percent
+     * @see #ConstraintSet_layout_constraintHeight_default
+     * @see #ConstraintSet_layout_constraintHeight_max
+     * @see #ConstraintSet_layout_constraintHeight_min
+     * @see #ConstraintSet_layout_constraintHorizontal_bias
+     * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintSet_layout_constraintHorizontal_weight
+     * @see #ConstraintSet_layout_constraintLeft_creator
+     * @see #ConstraintSet_layout_constraintLeft_toLeftOf
+     * @see #ConstraintSet_layout_constraintLeft_toRightOf
+     * @see #ConstraintSet_layout_constraintRight_creator
+     * @see #ConstraintSet_layout_constraintRight_toLeftOf
+     * @see #ConstraintSet_layout_constraintRight_toRightOf
+     * @see #ConstraintSet_layout_constraintStart_toEndOf
+     * @see #ConstraintSet_layout_constraintStart_toStartOf
+     * @see #ConstraintSet_layout_constraintTop_creator
+     * @see #ConstraintSet_layout_constraintTop_toBottomOf
+     * @see #ConstraintSet_layout_constraintTop_toTopOf
+     * @see #ConstraintSet_layout_constraintVertical_bias
+     * @see #ConstraintSet_layout_constraintVertical_chainStyle
+     * @see #ConstraintSet_layout_constraintVertical_weight
+     * @see #ConstraintSet_layout_constraintWidth_default
+     * @see #ConstraintSet_layout_constraintWidth_max
+     * @see #ConstraintSet_layout_constraintWidth_min
+     * @see #ConstraintSet_layout_editor_absoluteX
+     * @see #ConstraintSet_layout_editor_absoluteY
+     * @see #ConstraintSet_layout_goneMarginBottom
+     * @see #ConstraintSet_layout_goneMarginEnd
+     * @see #ConstraintSet_layout_goneMarginLeft
+     * @see #ConstraintSet_layout_goneMarginRight
+     * @see #ConstraintSet_layout_goneMarginStart
+     * @see #ConstraintSet_layout_goneMarginTop
+     */
+    public static final int[] ConstraintSet={
+        0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
+        0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
+        0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
+        0x01010322, 0x01010323, 0x01010324, 0x01010325, 
+        0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 
+        0x010103fa, 0x01010440, 0x7f0400ac, 0x7f0400ad, 
+        0x7f0400ae, 0x7f0400af, 0x7f0400b0, 0x7f0400b1, 
+        0x7f0400b2, 0x7f0400b3, 0x7f0400b4, 0x7f0400b5, 
+        0x7f0400b6, 0x7f0400b7, 0x7f0400b8, 0x7f0400b9, 
+        0x7f0400ba, 0x7f0400bb, 0x7f0400bc, 0x7f0400bd, 
+        0x7f0400be, 0x7f0400bf, 0x7f0400c0, 0x7f0400c1, 
+        0x7f0400c2, 0x7f0400c3, 0x7f0400c4, 0x7f0400c5, 
+        0x7f0400c6, 0x7f0400c7, 0x7f0400c8, 0x7f0400c9, 
+        0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400cd, 
+        0x7f0400cf, 0x7f0400d0, 0x7f0400d1, 0x7f0400d2, 
+        0x7f0400d3, 0x7f0400d4, 0x7f0400d5, 0x7f0400d6
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int ConstraintSet_android_alpha=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int ConstraintSet_android_elevation=21;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int ConstraintSet_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int ConstraintSet_android_layout_height=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int ConstraintSet_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int ConstraintSet_android_layout_marginEnd=19;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int ConstraintSet_android_layout_marginLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int ConstraintSet_android_layout_marginRight=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int ConstraintSet_android_layout_marginStart=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int ConstraintSet_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int ConstraintSet_android_layout_width=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintSet_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int ConstraintSet_android_rotationX=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int ConstraintSet_android_rotationY=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int ConstraintSet_android_scaleX=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int ConstraintSet_android_scaleY=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int ConstraintSet_android_transformPivotX=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int ConstraintSet_android_transformPivotY=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int ConstraintSet_android_translationX=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int ConstraintSet_android_translationY=13;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int ConstraintSet_android_translationZ=20;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int ConstraintSet_android_visibility=2;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=22;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=24;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=27;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_begin
+     */
+    public static final int ConstraintSet_layout_constraintGuide_begin=30;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=31;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintGuide_percent
+     */
+    public static final int ConstraintSet_layout_constraintGuide_percent=32;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_default
+     */
+    public static final int ConstraintSet_layout_constraintHeight_default=33;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_max
+     */
+    public static final int ConstraintSet_layout_constraintHeight_max=34;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHeight_min
+     */
+    public static final int ConstraintSet_layout_constraintHeight_min=35;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_creator
+     */
+    public static final int ConstraintSet_layout_constraintLeft_creator=39;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_creator
+     */
+    public static final int ConstraintSet_layout_constraintRight_creator=42;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_creator
+     */
+    public static final int ConstraintSet_layout_constraintTop_creator=47;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_bias
+     */
+    public static final int ConstraintSet_layout_constraintVertical_bias=50;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintVertical_weight
+     */
+    public static final int ConstraintSet_layout_constraintVertical_weight=52;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_default
+     */
+    public static final int ConstraintSet_layout_constraintWidth_default=53;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_max
+     */
+    public static final int ConstraintSet_layout_constraintWidth_max=54;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_constraintWidth_min
+     */
+    public static final int ConstraintSet_layout_constraintWidth_min=55;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_editor_absoluteX
+     */
+    public static final int ConstraintSet_layout_editor_absoluteX=56;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_editor_absoluteY
+     */
+    public static final int ConstraintSet_layout_editor_absoluteY=57;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginBottom
+     */
+    public static final int ConstraintSet_layout_goneMarginBottom=58;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginEnd
+     */
+    public static final int ConstraintSet_layout_goneMarginEnd=59;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginLeft
+     */
+    public static final int ConstraintSet_layout_goneMarginLeft=60;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginRight
+     */
+    public static final int ConstraintSet_layout_goneMarginRight=61;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginStart
+     */
+    public static final int ConstraintSet_layout_goneMarginStart=62;
+    /**
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.uit.it.attendance.student:layout_goneMarginTop
+     */
+    public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
@@ -7461,14 +9789,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.aisha.clientapp:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.aisha.clientapp:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines app.uit.it.attendance.student:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground app.uit.it.attendance.student:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f0400a3, 0x7f040101
+        0x7f0400a4, 0x7f04012d
       };
     /**
      * Attributes that can be used with a CoordinatorLayout_Layout.
@@ -7478,12 +9806,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.aisha.clientapp:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.aisha.clientapp:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.aisha.clientapp:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.aisha.clientapp:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.aisha.clientapp:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.aisha.clientapp:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor app.uit.it.attendance.student:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity app.uit.it.attendance.student:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior app.uit.it.attendance.student:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges app.uit.it.attendance.student:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge app.uit.it.attendance.student:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline app.uit.it.attendance.student:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -7494,8 +9822,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f0400a6, 0x7f0400a7, 0x7f0400a8, 
-        0x7f0400ab, 0x7f0400ac, 0x7f0400ad
+        0x010100b3, 0x7f0400a7, 0x7f0400a8, 0x7f0400a9, 
+        0x7f0400ce, 0x7f0400d7, 0x7f0400d8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -7527,7 +9855,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7535,11 +9863,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:layout_anchor
+     * @attr name app.uit.it.attendance.student:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7564,21 +9892,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:layout_anchorGravity
+     * @attr name app.uit.it.attendance.student:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:layout_behavior
+     * @attr name app.uit.it.attendance.student:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7597,11 +9925,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:layout_dodgeInsetEdges
+     * @attr name app.uit.it.attendance.student:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7619,20 +9947,20 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:layout_insetEdge
+     * @attr name app.uit.it.attendance.student:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.aisha.clientapp:layout_keyline
+     * @attr name app.uit.it.attendance.student:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7640,11 +9968,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:keylines
+     * @attr name app.uit.it.attendance.student:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7652,7 +9980,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:statusBarBackground
+     * @attr name app.uit.it.attendance.student:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -7662,19 +9990,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.aisha.clientapp:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.aisha.clientapp:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.example.aisha.clientapp:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme app.uit.it.attendance.student:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle app.uit.it.attendance.student:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError app.uit.it.attendance.student:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
      * @see #DesignTheme_textColorError
      */
     public static final int[] DesignTheme={
-        0x7f040038, 0x7f040039, 0x7f040128
+        0x7f040038, 0x7f040039, 0x7f040154
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7682,11 +10010,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:bottomSheetDialogTheme
+     * @attr name app.uit.it.attendance.student:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7694,18 +10022,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:bottomSheetStyle
+     * @attr name app.uit.it.attendance.student:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:textColorError
+     * @attr name app.uit.it.attendance.student:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -7715,14 +10043,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.aisha.clientapp:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.aisha.clientapp:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.aisha.clientapp:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.aisha.clientapp:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.aisha.clientapp:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.aisha.clientapp:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.aisha.clientapp:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.aisha.clientapp:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength app.uit.it.attendance.student:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength app.uit.it.attendance.student:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength app.uit.it.attendance.student:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color app.uit.it.attendance.student:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize app.uit.it.attendance.student:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars app.uit.it.attendance.student:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars app.uit.it.attendance.student:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness app.uit.it.attendance.student:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -7735,10 +10063,10 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f040028, 0x7f040029, 0x7f040030, 0x7f040053, 
-        0x7f040078, 0x7f04008d, 0x7f0400f8, 0x7f04012b
+        0x7f040079, 0x7f04008e, 0x7f040124, 0x7f040157
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7747,11 +10075,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:arrowHeadLength
+     * @attr name app.uit.it.attendance.student:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7760,11 +10088,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:arrowShaftLength
+     * @attr name app.uit.it.attendance.student:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7773,22 +10101,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:barLength
+     * @attr name app.uit.it.attendance.student:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#color}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:color
+     * @attr name app.uit.it.attendance.student:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7797,11 +10125,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:drawableSize
+     * @attr name app.uit.it.attendance.student:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7810,21 +10138,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:gapBetweenBars
+     * @attr name app.uit.it.attendance.student:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:spinBars
+     * @attr name app.uit.it.attendance.student:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7833,7 +10161,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:thickness
+     * @attr name app.uit.it.attendance.student:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -7843,41 +10171,41 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlatButton_pb_colorNormal com.example.aisha.clientapp:pb_colorNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlatButton_pb_colorPressed com.example.aisha.clientapp:pb_colorPressed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlatButton_pb_cornerRadius com.example.aisha.clientapp:pb_cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlatButton_pb_colorNormal app.uit.it.attendance.student:pb_colorNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlatButton_pb_colorPressed app.uit.it.attendance.student:pb_colorPressed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlatButton_pb_cornerRadius app.uit.it.attendance.student:pb_cornerRadius}</code></td><td></td></tr>
      * </table>
      * @see #FlatButton_pb_colorNormal
      * @see #FlatButton_pb_colorPressed
      * @see #FlatButton_pb_cornerRadius
      */
     public static final int[] FlatButton={
-        0x7f0400d4, 0x7f0400d5, 0x7f0400d7
+        0x7f040100, 0x7f040101, 0x7f040103
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_colorNormal}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_colorNormal}
      * attribute's value can be found in the {@link #FlatButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:pb_colorNormal
+     * @attr name app.uit.it.attendance.student:pb_colorNormal
      */
     public static final int FlatButton_pb_colorNormal=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_colorPressed}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_colorPressed}
      * attribute's value can be found in the {@link #FlatButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:pb_colorPressed
+     * @attr name app.uit.it.attendance.student:pb_colorPressed
      */
     public static final int FlatButton_pb_colorPressed=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_cornerRadius}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_cornerRadius}
      * attribute's value can be found in the {@link #FlatButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7886,7 +10214,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:pb_cornerRadius
+     * @attr name app.uit.it.attendance.student:pb_cornerRadius
      */
     public static final int FlatButton_pb_cornerRadius=2;
     /**
@@ -7896,14 +10224,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.aisha.clientapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.aisha.clientapp:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.aisha.clientapp:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.example.aisha.clientapp:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.aisha.clientapp:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.aisha.clientapp:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.aisha.clientapp:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint app.uit.it.attendance.student:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode app.uit.it.attendance.student:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth app.uit.it.attendance.student:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize app.uit.it.attendance.student:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ app.uit.it.attendance.student:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor app.uit.it.attendance.student:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding app.uit.it.attendance.student:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -7915,8 +10243,8 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-        0x7f04002e, 0x7f04002f, 0x7f040036, 0x7f04007f, 
-        0x7f04008b, 0x7f0400df, 0x7f0400e9, 0x7f040145
+        0x7f04002e, 0x7f04002f, 0x7f040036, 0x7f040080, 
+        0x7f04008c, 0x7f04010b, 0x7f040115, 0x7f040171
       };
     /**
      * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -7925,7 +10253,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.example.aisha.clientapp:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide app.uit.it.attendance.student:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -7933,28 +10261,28 @@ public final class R {
         0x7f040031
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:behavior_autoHide
+     * @attr name app.uit.it.attendance.student:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:backgroundTint
+     * @attr name app.uit.it.attendance.student:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7970,11 +10298,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:backgroundTintMode
+     * @attr name app.uit.it.attendance.student:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7983,11 +10311,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:borderWidth
+     * @attr name app.uit.it.attendance.student:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7996,11 +10324,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8014,11 +10342,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:fabSize
+     * @attr name app.uit.it.attendance.student:fabSize
      */
     public static final int FloatingActionButton_fabSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8027,28 +10355,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:pressedTranslationZ
+     * @attr name app.uit.it.attendance.student:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:rippleColor
+     * @attr name app.uit.it.attendance.student:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:useCompatPadding
+     * @attr name app.uit.it.attendance.student:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=7;
     /**
@@ -8060,14 +10388,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.aisha.clientapp:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding app.uit.it.attendance.student:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-        0x01010109, 0x01010200, 0x7f04008c
+        0x01010109, 0x01010200, 0x7f04008d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -8112,15 +10440,46 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:foregroundInsidePadding
+     * @attr name app.uit.it.attendance.student:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
+    /**
+     * Attributes that can be used with a LinearConstraintLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
+     * </table>
+     * @see #LinearConstraintLayout_android_orientation
+     */
+    public static final int[] LinearConstraintLayout={
+        0x010100c4
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearConstraintLayout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int LinearConstraintLayout_android_orientation=0;
     /**
      * Attributes that can be used with a LinearLayoutCompat.
      * <p>Includes the following attributes:</p>
@@ -8133,10 +10492,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.aisha.clientapp:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.aisha.clientapp:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.aisha.clientapp:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.aisha.clientapp:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider app.uit.it.attendance.student:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding app.uit.it.attendance.student:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild app.uit.it.attendance.student:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers app.uit.it.attendance.student:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -8150,8 +10509,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f040074, 0x7f040076, 0x7f0400bf, 
-        0x7f0400f3
+        0x01010128, 0x7f040075, 0x7f040077, 0x7f0400eb, 
+        0x7f04011f
       };
     /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -8332,7 +10691,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#divider}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8340,11 +10699,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:divider
+     * @attr name app.uit.it.attendance.student:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8353,21 +10712,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:dividerPadding
+     * @attr name app.uit.it.attendance.student:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:measureWithLargestChild
+     * @attr name app.uit.it.attendance.student:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8382,7 +10741,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:showDividers
+     * @attr name app.uit.it.attendance.student:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -8550,10 +10909,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.aisha.clientapp:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.aisha.clientapp:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.aisha.clientapp:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.aisha.clientapp:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout app.uit.it.attendance.student:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass app.uit.it.attendance.student:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass app.uit.it.attendance.student:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction app.uit.it.attendance.student:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -8578,10 +10937,10 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f04000d, 0x7f04001f, 0x7f040020, 
-        0x7f0400f2
+        0x7f04011e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8589,27 +10948,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:actionLayout
+     * @attr name app.uit.it.attendance.student:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:actionProviderClass
+     * @attr name app.uit.it.attendance.student:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:actionViewClass
+     * @attr name app.uit.it.attendance.student:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -8755,7 +11114,7 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8771,7 +11130,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:showAsAction
+     * @attr name app.uit.it.attendance.student:showAsAction
      */
     public static final int MenuItem_showAsAction=16;
     /**
@@ -8788,8 +11147,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.aisha.clientapp:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.aisha.clientapp:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing app.uit.it.attendance.student:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow app.uit.it.attendance.student:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -8803,8 +11162,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f0400de, 
-        0x7f040103
+        0x0101012f, 0x01010130, 0x01010131, 0x7f04010a, 
+        0x7f04012f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -8894,17 +11253,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:preserveIconSpacing
+     * @attr name app.uit.it.attendance.student:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8912,7 +11271,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:subMenuArrow
+     * @attr name app.uit.it.attendance.student:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -8925,13 +11284,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.example.aisha.clientapp:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.example.aisha.clientapp:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.example.aisha.clientapp:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.aisha.clientapp:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.example.aisha.clientapp:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.example.aisha.clientapp:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout app.uit.it.attendance.student:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground app.uit.it.attendance.student:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint app.uit.it.attendance.student:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance app.uit.it.attendance.student:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor app.uit.it.attendance.student:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu app.uit.it.attendance.student:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -8945,9 +11304,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-        0x010100d4, 0x010100dd, 0x0101011f, 0x7f04007f, 
-        0x7f04008f, 0x7f04009e, 0x7f04009f, 0x7f0400a1, 
-        0x7f0400a2, 0x7f0400c0
+        0x010100d4, 0x010100dd, 0x0101011f, 0x7f040080, 
+        0x7f040090, 0x7f04009f, 0x7f0400a0, 0x7f0400a2, 
+        0x7f0400a3, 0x7f0400ec
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -8988,7 +11347,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8997,11 +11356,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9009,11 +11368,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:headerLayout
+     * @attr name app.uit.it.attendance.student:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9021,22 +11380,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemBackground
+     * @attr name app.uit.it.attendance.student:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemIconTint
+     * @attr name app.uit.it.attendance.student:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9044,22 +11403,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemTextAppearance
+     * @attr name app.uit.it.attendance.student:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:itemTextColor
+     * @attr name app.uit.it.attendance.student:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#menu}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9067,7 +11426,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:menu
+     * @attr name app.uit.it.attendance.student:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -9079,14 +11438,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.aisha.clientapp:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor app.uit.it.attendance.student:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f0400c5
+        0x01010176, 0x010102c9, 0x7f0400f1
       };
     /**
      * Attributes that can be used with a PopupWindowBackgroundState.
@@ -9095,21 +11454,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.aisha.clientapp:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor app.uit.it.attendance.student:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0400fe
+        0x7f04012a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:state_above_anchor
+     * @attr name app.uit.it.attendance.student:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -9140,13 +11499,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:overlapAnchor
+     * @attr name app.uit.it.attendance.student:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -9156,12 +11515,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_colorComplete com.example.aisha.clientapp:pb_colorComplete}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_colorError com.example.aisha.clientapp:pb_colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_colorProgress com.example.aisha.clientapp:pb_colorProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_textComplete com.example.aisha.clientapp:pb_textComplete}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_textError com.example.aisha.clientapp:pb_textError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ProcessButton_pb_textProgress com.example.aisha.clientapp:pb_textProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_colorComplete app.uit.it.attendance.student:pb_colorComplete}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_colorError app.uit.it.attendance.student:pb_colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_colorProgress app.uit.it.attendance.student:pb_colorProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_textComplete app.uit.it.attendance.student:pb_textComplete}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_textError app.uit.it.attendance.student:pb_textError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ProcessButton_pb_textProgress app.uit.it.attendance.student:pb_textProgress}</code></td><td></td></tr>
      * </table>
      * @see #ProcessButton_pb_colorComplete
      * @see #ProcessButton_pb_colorError
@@ -9171,70 +11530,70 @@ public final class R {
      * @see #ProcessButton_pb_textProgress
      */
     public static final int[] ProcessButton={
-        0x7f0400d2, 0x7f0400d3, 0x7f0400d6, 0x7f0400d8, 
-        0x7f0400d9, 0x7f0400da
+        0x7f0400fe, 0x7f0400ff, 0x7f040102, 0x7f040104, 
+        0x7f040105, 0x7f040106
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_colorComplete}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_colorComplete}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:pb_colorComplete
+     * @attr name app.uit.it.attendance.student:pb_colorComplete
      */
     public static final int ProcessButton_pb_colorComplete=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_colorError}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_colorError}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:pb_colorError
+     * @attr name app.uit.it.attendance.student:pb_colorError
      */
     public static final int ProcessButton_pb_colorError=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_colorProgress}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_colorProgress}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:pb_colorProgress
+     * @attr name app.uit.it.attendance.student:pb_colorProgress
      */
     public static final int ProcessButton_pb_colorProgress=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_textComplete}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_textComplete}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:pb_textComplete
+     * @attr name app.uit.it.attendance.student:pb_textComplete
      */
     public static final int ProcessButton_pb_textComplete=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_textError}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_textError}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:pb_textError
+     * @attr name app.uit.it.attendance.student:pb_textError
      */
     public static final int ProcessButton_pb_textError=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#pb_textProgress}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#pb_textProgress}
      * attribute's value can be found in the {@link #ProcessButton} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:pb_textProgress
+     * @attr name app.uit.it.attendance.student:pb_textProgress
      */
     public static final int ProcessButton_pb_textProgress=5;
     /**
@@ -9244,17 +11603,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.aisha.clientapp:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.aisha.clientapp:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons app.uit.it.attendance.student:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle app.uit.it.attendance.student:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f0400c6, 0x7f0400c9
+        0x7f0400f2, 0x7f0400f5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9263,11 +11622,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:paddingBottomNoButtons
+     * @attr name app.uit.it.attendance.student:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9276,7 +11635,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:paddingTopNoTitle
+     * @attr name app.uit.it.attendance.student:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -9288,10 +11647,10 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.aisha.clientapp:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.aisha.clientapp:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.example.aisha.clientapp:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.aisha.clientapp:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager app.uit.it.attendance.student:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout app.uit.it.attendance.student:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount app.uit.it.attendance.student:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd app.uit.it.attendance.student:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -9301,8 +11660,8 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f0400a5, 0x7f0400e8, 
-        0x7f0400f7, 0x7f0400fd
+        0x010100c4, 0x010100f1, 0x7f0400a6, 0x7f040114, 
+        0x7f040123, 0x7f040129
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
@@ -9340,42 +11699,42 @@ public final class R {
      */
     public static final int RecyclerView_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:layoutManager
+     * @attr name app.uit.it.attendance.student:layoutManager
      */
     public static final int RecyclerView_layoutManager=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:reverseLayout
+     * @attr name app.uit.it.attendance.student:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.aisha.clientapp:spanCount
+     * @attr name app.uit.it.attendance.student:spanCount
      */
     public static final int RecyclerView_spanCount=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:stackFromEnd
+     * @attr name app.uit.it.attendance.student:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
@@ -9385,15 +11744,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.aisha.clientapp:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground app.uit.it.attendance.student:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-        0x7f04009c
+        0x7f04009d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9404,7 +11763,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:insetForeground
+     * @attr name app.uit.it.attendance.student:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -9414,7 +11773,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.example.aisha.clientapp:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop app.uit.it.attendance.student:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -9422,7 +11781,7 @@ public final class R {
         0x7f040033
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9431,7 +11790,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:behavior_overlapTop
+     * @attr name app.uit.it.attendance.student:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -9445,19 +11804,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.aisha.clientapp:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.aisha.clientapp:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.aisha.clientapp:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.aisha.clientapp:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.aisha.clientapp:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.aisha.clientapp:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.aisha.clientapp:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.aisha.clientapp:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.aisha.clientapp:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.aisha.clientapp:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.aisha.clientapp:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.aisha.clientapp:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.aisha.clientapp:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon app.uit.it.attendance.student:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon app.uit.it.attendance.student:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint app.uit.it.attendance.student:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon app.uit.it.attendance.student:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault app.uit.it.attendance.student:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout app.uit.it.attendance.student:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground app.uit.it.attendance.student:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint app.uit.it.attendance.student:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon app.uit.it.attendance.student:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon app.uit.it.attendance.student:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground app.uit.it.attendance.student:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout app.uit.it.attendance.student:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon app.uit.it.attendance.student:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -9479,10 +11838,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f04004d, 0x7f04005d, 0x7f040070, 0x7f04008e, 
-        0x7f040098, 0x7f0400a4, 0x7f0400e2, 0x7f0400e3, 
-        0x7f0400ec, 0x7f0400ed, 0x7f040104, 0x7f040109, 
-        0x7f040146
+        0x7f04004d, 0x7f04005d, 0x7f040071, 0x7f04008f, 
+        0x7f040099, 0x7f0400a5, 0x7f04010e, 0x7f04010f, 
+        0x7f040118, 0x7f040119, 0x7f040130, 0x7f040135, 
+        0x7f040172
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9586,7 +11945,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9594,11 +11953,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:closeIcon
+     * @attr name app.uit.it.attendance.student:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9606,21 +11965,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:commitIcon
+     * @attr name app.uit.it.attendance.student:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:defaultQueryHint
+     * @attr name app.uit.it.attendance.student:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9628,21 +11987,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:goIcon
+     * @attr name app.uit.it.attendance.student:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:iconifiedByDefault
+     * @attr name app.uit.it.attendance.student:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#layout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9650,11 +12009,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:layout
+     * @attr name app.uit.it.attendance.student:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9662,21 +12021,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:queryBackground
+     * @attr name app.uit.it.attendance.student:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:queryHint
+     * @attr name app.uit.it.attendance.student:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9684,11 +12043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:searchHintIcon
+     * @attr name app.uit.it.attendance.student:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9696,11 +12055,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:searchIcon
+     * @attr name app.uit.it.attendance.student:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9708,11 +12067,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:submitBackground
+     * @attr name app.uit.it.attendance.student:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9720,11 +12079,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:suggestionRowLayout
+     * @attr name app.uit.it.attendance.student:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9732,7 +12091,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:voiceIcon
+     * @attr name app.uit.it.attendance.student:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -9743,15 +12102,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.example.aisha.clientapp:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.aisha.clientapp:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation app.uit.it.attendance.student:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth app.uit.it.attendance.student:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-        0x0101011f, 0x7f04007f, 0x7f0400bd
+        0x0101011f, 0x7f040080, 0x7f0400e9
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -9767,7 +12126,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9776,11 +12135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:elevation
+     * @attr name app.uit.it.attendance.student:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9789,7 +12148,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:maxActionInlineWidth
+     * @attr name app.uit.it.attendance.student:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -9803,7 +12162,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.aisha.clientapp:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme app.uit.it.attendance.student:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -9813,7 +12172,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f0400dc
+        0x7f040108
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -9878,7 +12237,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9886,7 +12245,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:popupTheme
+     * @attr name app.uit.it.attendance.student:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -9899,17 +12258,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.aisha.clientapp:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.aisha.clientapp:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.aisha.clientapp:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.aisha.clientapp:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.aisha.clientapp:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.aisha.clientapp:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.aisha.clientapp:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.aisha.clientapp:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.aisha.clientapp:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.aisha.clientapp:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.aisha.clientapp:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText app.uit.it.attendance.student:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack app.uit.it.attendance.student:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth app.uit.it.attendance.student:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding app.uit.it.attendance.student:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance app.uit.it.attendance.student:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding app.uit.it.attendance.student:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint app.uit.it.attendance.student:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode app.uit.it.attendance.student:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track app.uit.it.attendance.student:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint app.uit.it.attendance.student:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode app.uit.it.attendance.student:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -9927,10 +12286,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0400f4, 
-        0x7f0400fb, 0x7f04010a, 0x7f04010b, 0x7f04010d, 
-        0x7f04012c, 0x7f04012d, 0x7f04012e, 0x7f040142, 
-        0x7f040143, 0x7f040144
+        0x01010124, 0x01010125, 0x01010142, 0x7f040120, 
+        0x7f040127, 0x7f040136, 0x7f040137, 0x7f040139, 
+        0x7f040158, 0x7f040159, 0x7f04015a, 0x7f04016e, 
+        0x7f04016f, 0x7f040170
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -9965,27 +12324,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#showText}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:showText
+     * @attr name app.uit.it.attendance.student:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:splitTrack
+     * @attr name app.uit.it.attendance.student:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9994,11 +12353,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:switchMinWidth
+     * @attr name app.uit.it.attendance.student:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10007,11 +12366,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:switchPadding
+     * @attr name app.uit.it.attendance.student:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10019,11 +12378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:switchTextAppearance
+     * @attr name app.uit.it.attendance.student:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10032,22 +12391,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:thumbTextPadding
+     * @attr name app.uit.it.attendance.student:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:thumbTint
+     * @attr name app.uit.it.attendance.student:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10064,11 +12423,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:thumbTintMode
+     * @attr name app.uit.it.attendance.student:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#track}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10076,22 +12435,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:track
+     * @attr name app.uit.it.attendance.student:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:trackTint
+     * @attr name app.uit.it.attendance.student:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10108,7 +12467,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:trackTintMode
+     * @attr name app.uit.it.attendance.student:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -10170,22 +12529,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.example.aisha.clientapp:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.example.aisha.clientapp:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.example.aisha.clientapp:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.aisha.clientapp:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.aisha.clientapp:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.aisha.clientapp:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.example.aisha.clientapp:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.example.aisha.clientapp:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.example.aisha.clientapp:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.aisha.clientapp:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.aisha.clientapp:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.aisha.clientapp:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.aisha.clientapp:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.aisha.clientapp:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.aisha.clientapp:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.example.aisha.clientapp:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground app.uit.it.attendance.student:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart app.uit.it.attendance.student:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity app.uit.it.attendance.student:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor app.uit.it.attendance.student:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight app.uit.it.attendance.student:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth app.uit.it.attendance.student:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth app.uit.it.attendance.student:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode app.uit.it.attendance.student:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding app.uit.it.attendance.student:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom app.uit.it.attendance.student:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd app.uit.it.attendance.student:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart app.uit.it.attendance.student:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop app.uit.it.attendance.student:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor app.uit.it.attendance.student:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance app.uit.it.attendance.student:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor app.uit.it.attendance.student:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -10205,13 +12564,13 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-        0x7f04010e, 0x7f04010f, 0x7f040110, 0x7f040111, 
-        0x7f040112, 0x7f040113, 0x7f040114, 0x7f040115, 
-        0x7f040116, 0x7f040117, 0x7f040118, 0x7f040119, 
-        0x7f04011a, 0x7f04011b, 0x7f04011c, 0x7f04011d
+        0x7f04013a, 0x7f04013b, 0x7f04013c, 0x7f04013d, 
+        0x7f04013e, 0x7f04013f, 0x7f040140, 0x7f040141, 
+        0x7f040142, 0x7f040143, 0x7f040144, 0x7f040145, 
+        0x7f040146, 0x7f040147, 0x7f040148, 0x7f040149
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10219,11 +12578,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tabBackground
+     * @attr name app.uit.it.attendance.student:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10232,11 +12591,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabContentStart
+     * @attr name app.uit.it.attendance.student:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10249,22 +12608,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:tabGravity
+     * @attr name app.uit.it.attendance.student:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tabIndicatorColor
+     * @attr name app.uit.it.attendance.student:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10273,11 +12632,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabIndicatorHeight
+     * @attr name app.uit.it.attendance.student:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10286,11 +12645,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabMaxWidth
+     * @attr name app.uit.it.attendance.student:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10299,11 +12658,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabMinWidth
+     * @attr name app.uit.it.attendance.student:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10316,11 +12675,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:tabMode
+     * @attr name app.uit.it.attendance.student:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10329,11 +12688,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabPadding
+     * @attr name app.uit.it.attendance.student:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10342,11 +12701,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabPaddingBottom
+     * @attr name app.uit.it.attendance.student:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10355,11 +12714,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabPaddingEnd
+     * @attr name app.uit.it.attendance.student:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10368,11 +12727,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabPaddingStart
+     * @attr name app.uit.it.attendance.student:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10381,22 +12740,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:tabPaddingTop
+     * @attr name app.uit.it.attendance.student:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tabSelectedTextColor
+     * @attr name app.uit.it.attendance.student:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10404,18 +12763,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tabTextAppearance
+     * @attr name app.uit.it.attendance.student:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:tabTextColor
+     * @attr name app.uit.it.attendance.student:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -10434,7 +12793,7 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.aisha.clientapp:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps app.uit.it.attendance.student:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -10450,7 +12809,7 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x01010161, 0x01010162, 0x01010163, 
-        0x01010164, 0x7f04011e
+        0x01010164, 0x7f04014a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -10571,7 +12930,7 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10581,7 +12940,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:textAllCaps
+     * @attr name app.uit.it.attendance.student:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=9;
     /**
@@ -10593,20 +12952,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.aisha.clientapp:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.aisha.clientapp:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.aisha.clientapp:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.aisha.clientapp:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.aisha.clientapp:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.aisha.clientapp:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.aisha.clientapp:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.aisha.clientapp:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.aisha.clientapp:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.example.aisha.clientapp:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.example.aisha.clientapp:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.example.aisha.clientapp:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.example.aisha.clientapp:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.example.aisha.clientapp:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled app.uit.it.attendance.student:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength app.uit.it.attendance.student:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance app.uit.it.attendance.student:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance app.uit.it.attendance.student:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled app.uit.it.attendance.student:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance app.uit.it.attendance.student:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled app.uit.it.attendance.student:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled app.uit.it.attendance.student:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance app.uit.it.attendance.student:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription app.uit.it.attendance.student:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable app.uit.it.attendance.student:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled app.uit.it.attendance.student:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint app.uit.it.attendance.student:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode app.uit.it.attendance.student:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -10626,10 +12985,10 @@ public final class R {
      * @see #TextInputLayout_passwordToggleTintMode
      */
     public static final int[] TextInputLayout={
-        0x0101009a, 0x01010150, 0x7f04006b, 0x7f04006c, 
-        0x7f04006d, 0x7f04006e, 0x7f040080, 0x7f040081, 
-        0x7f040092, 0x7f040093, 0x7f040094, 0x7f0400cd, 
-        0x7f0400ce, 0x7f0400cf, 0x7f0400d0, 0x7f0400d1
+        0x0101009a, 0x01010150, 0x7f04006c, 0x7f04006d, 
+        0x7f04006e, 0x7f04006f, 0x7f040081, 0x7f040082, 
+        0x7f040093, 0x7f040094, 0x7f040095, 0x7f0400f9, 
+        0x7f0400fa, 0x7f0400fb, 0x7f0400fc, 0x7f0400fd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -10657,26 +13016,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_textColorHint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:counterEnabled
+     * @attr name app.uit.it.attendance.student:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.aisha.clientapp:counterMaxLength
+     * @attr name app.uit.it.attendance.student:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10684,11 +13043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:counterOverflowTextAppearance
+     * @attr name app.uit.it.attendance.student:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10696,21 +13055,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:counterTextAppearance
+     * @attr name app.uit.it.attendance.student:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:errorEnabled
+     * @attr name app.uit.it.attendance.student:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10718,31 +13077,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:errorTextAppearance
+     * @attr name app.uit.it.attendance.student:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:hintAnimationEnabled
+     * @attr name app.uit.it.attendance.student:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:hintEnabled
+     * @attr name app.uit.it.attendance.student:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10750,21 +13109,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:hintTextAppearance
+     * @attr name app.uit.it.attendance.student:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:passwordToggleContentDescription
+     * @attr name app.uit.it.attendance.student:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10772,32 +13131,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:passwordToggleDrawable
+     * @attr name app.uit.it.attendance.student:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.aisha.clientapp:passwordToggleEnabled
+     * @attr name app.uit.it.attendance.student:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:passwordToggleTint
+     * @attr name app.uit.it.attendance.student:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10813,7 +13172,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:passwordToggleTintMode
+     * @attr name app.uit.it.attendance.student:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -10825,33 +13184,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.aisha.clientapp:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.aisha.clientapp:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.aisha.clientapp:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.aisha.clientapp:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.aisha.clientapp:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.aisha.clientapp:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.aisha.clientapp:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.aisha.clientapp:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.aisha.clientapp:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.aisha.clientapp:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.aisha.clientapp:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.aisha.clientapp:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.aisha.clientapp:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.aisha.clientapp:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.aisha.clientapp:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.aisha.clientapp:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.aisha.clientapp:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.aisha.clientapp:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.aisha.clientapp:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.aisha.clientapp:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.aisha.clientapp:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.aisha.clientapp:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.aisha.clientapp:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.aisha.clientapp:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.aisha.clientapp:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.aisha.clientapp:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.aisha.clientapp:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity app.uit.it.attendance.student:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription app.uit.it.attendance.student:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon app.uit.it.attendance.student:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd app.uit.it.attendance.student:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions app.uit.it.attendance.student:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft app.uit.it.attendance.student:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight app.uit.it.attendance.student:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart app.uit.it.attendance.student:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation app.uit.it.attendance.student:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo app.uit.it.attendance.student:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription app.uit.it.attendance.student:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight app.uit.it.attendance.student:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription app.uit.it.attendance.student:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon app.uit.it.attendance.student:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme app.uit.it.attendance.student:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle app.uit.it.attendance.student:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance app.uit.it.attendance.student:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor app.uit.it.attendance.student:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title app.uit.it.attendance.student:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin app.uit.it.attendance.student:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom app.uit.it.attendance.student:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd app.uit.it.attendance.student:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart app.uit.it.attendance.student:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop app.uit.it.attendance.student:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins app.uit.it.attendance.student:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance app.uit.it.attendance.student:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor app.uit.it.attendance.student:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -10885,13 +13244,13 @@ public final class R {
      */
     public static final int[] Toolbar={
         0x010100af, 0x01010140, 0x7f04003f, 0x7f04004f, 
-        0x7f040050, 0x7f04005e, 0x7f04005f, 0x7f040060, 
-        0x7f040061, 0x7f040062, 0x7f040063, 0x7f0400bb, 
-        0x7f0400bc, 0x7f0400be, 0x7f0400c2, 0x7f0400c3, 
-        0x7f0400dc, 0x7f040105, 0x7f040106, 0x7f040107, 
-        0x7f040134, 0x7f040136, 0x7f040137, 0x7f040138, 
-        0x7f040139, 0x7f04013a, 0x7f04013b, 0x7f04013c, 
-        0x7f04013d
+        0x7f040050, 0x7f04005f, 0x7f040060, 0x7f040061, 
+        0x7f040062, 0x7f040063, 0x7f040064, 0x7f0400e7, 
+        0x7f0400e8, 0x7f0400ea, 0x7f0400ee, 0x7f0400ef, 
+        0x7f040108, 0x7f040131, 0x7f040132, 0x7f040133, 
+        0x7f040160, 0x7f040162, 0x7f040163, 0x7f040164, 
+        0x7f040165, 0x7f040166, 0x7f040167, 0x7f040168, 
+        0x7f040169
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10936,7 +13295,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10949,21 +13308,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:buttonGravity
+     * @attr name app.uit.it.attendance.student:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:collapseContentDescription
+     * @attr name app.uit.it.attendance.student:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10971,11 +13330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:collapseIcon
+     * @attr name app.uit.it.attendance.student:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10984,11 +13343,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetEnd
+     * @attr name app.uit.it.attendance.student:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10997,11 +13356,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetEndWithActions
+     * @attr name app.uit.it.attendance.student:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11010,11 +13369,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetLeft
+     * @attr name app.uit.it.attendance.student:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11023,11 +13382,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetRight
+     * @attr name app.uit.it.attendance.student:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11036,11 +13395,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetStart
+     * @attr name app.uit.it.attendance.student:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11049,11 +13408,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:contentInsetStartWithNavigation
+     * @attr name app.uit.it.attendance.student:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#logo}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11061,21 +13420,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:logo
+     * @attr name app.uit.it.attendance.student:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:logoDescription
+     * @attr name app.uit.it.attendance.student:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11084,21 +13443,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:maxButtonHeight
+     * @attr name app.uit.it.attendance.student:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:navigationContentDescription
+     * @attr name app.uit.it.attendance.student:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11106,11 +13465,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:navigationIcon
+     * @attr name app.uit.it.attendance.student:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11118,21 +13477,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:popupTheme
+     * @attr name app.uit.it.attendance.student:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:subtitle
+     * @attr name app.uit.it.attendance.student:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11140,32 +13499,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:subtitleTextAppearance
+     * @attr name app.uit.it.attendance.student:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:subtitleTextColor
+     * @attr name app.uit.it.attendance.student:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#title}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.aisha.clientapp:title
+     * @attr name app.uit.it.attendance.student:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11174,11 +13533,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMargin
+     * @attr name app.uit.it.attendance.student:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11187,11 +13546,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMarginBottom
+     * @attr name app.uit.it.attendance.student:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11200,11 +13559,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMarginEnd
+     * @attr name app.uit.it.attendance.student:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11213,11 +13572,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMarginStart
+     * @attr name app.uit.it.attendance.student:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11226,11 +13585,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMarginTop
+     * @attr name app.uit.it.attendance.student:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11239,11 +13598,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:titleMargins
+     * @attr name app.uit.it.attendance.student:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11251,18 +13610,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:titleTextAppearance
+     * @attr name app.uit.it.attendance.student:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:titleTextColor
+     * @attr name app.uit.it.attendance.student:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11274,9 +13633,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.aisha.clientapp:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.aisha.clientapp:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.aisha.clientapp:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd app.uit.it.attendance.student:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart app.uit.it.attendance.student:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme app.uit.it.attendance.student:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11285,8 +13644,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f0400c7, 0x7f0400c8, 
-        0x7f04012a
+        0x01010000, 0x010100da, 0x7f0400f3, 0x7f0400f4, 
+        0x7f040156
       };
     /**
      * Attributes that can be used with a ViewBackgroundHelper.
@@ -11296,8 +13655,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.aisha.clientapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.aisha.clientapp:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint app.uit.it.attendance.student:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode app.uit.it.attendance.student:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11322,18 +13681,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:backgroundTint
+     * @attr name app.uit.it.attendance.student:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11349,7 +13708,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.aisha.clientapp:backgroundTintMode
+     * @attr name app.uit.it.attendance.student:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -11429,7 +13788,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11438,11 +13797,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:paddingEnd
+     * @attr name app.uit.it.attendance.student:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11451,11 +13810,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.aisha.clientapp:paddingStart
+     * @attr name app.uit.it.attendance.student:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.aisha.clientapp.R.attr#theme}
+     * <p>This symbol is the offset where the {@link app.uit.it.attendance.student.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11463,7 +13822,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.aisha.clientapp:theme
+     * @attr name app.uit.it.attendance.student:theme
      */
     public static final int View_theme=4;
   }

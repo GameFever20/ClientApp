@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aisha.clientapp.test">
+    package="app.uit.it.attendance.student.test">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.aisha.clientapp"
+                     android:targetPackage="app.uit.it.attendance.student"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.aisha.clientapp"/>
+                     android:label="Tests for app.uit.it.attendance.student"/>
 </manifest>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aisha.clientapp"
+    package="app.uit.it.attendance.student"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -44,6 +44,10 @@
         <activity android:name="com.example.aisha.clientapp.AttendanceActivity" />
         <activity android:name="com.example.aisha.clientapp.RegisterActivity" />
         <activity android:name="com.example.aisha.clientapp.HelpActivity" />
+        <activity
+            android:name="com.example.aisha.clientapp.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="android.support.VERSION"

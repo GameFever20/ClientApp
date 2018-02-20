@@ -94,9 +94,9 @@ public class WelcomeSlideFragment2 extends Fragment {
 
 
                     try {
-                        Integer.parseInt(rollNumber);
+                        //Integer.parseInt(rollNumber);
 
-                        rollNumber = "0101IT" + rollNumber;
+                        rollNumber = "0101" + rollNumber.toUpperCase();
                         if (name == null || name.isEmpty()) {
                             Toast.makeText(getContext(), "Enter Your Name", Toast.LENGTH_SHORT).show();
                         } else {

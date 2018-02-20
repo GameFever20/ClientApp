@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 
 
         //wifi scan
